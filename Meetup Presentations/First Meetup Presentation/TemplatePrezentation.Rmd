@@ -60,3 +60,70 @@ background-position: center
 background-size: 96% 97%
 
 # <span style="color:#a1007a"> **Meet Novi Sad throught R** </span>
+
+
+---
+
+
+class: inverse, top
+
+# <span style="color:#a1007a"> **Milena Kresoja** </span>
+
+.pull-left[
+## **Education**
+- </span> **BSc** Finantial Mathematics
+- </span> **MSc** Applied Mathematics
+- </span> **PhD** Numerical Optimization
+]
+
+.pull-right[
+## Work Experience
+- </span> **2011 - 2018:** Center of Applied Statistics, Novi Sad
+- </span> **2011 - 2018:** Faculty of Sciences, Novi Sad
+- </span> **2018 - ** Institute of Economic Sciences, Belgrade
+- </span> **2018 - ** ARPM, New York
+
+]
+
+
+---
+
+
+class: inverse, middle
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> **R in Novi Sad** </span>
+
+.pull-left[
+<img src="maze1.png" align="center" height = 400>
+]
+
+.pull-right[
+### <span style="color:#a1007a"> **Start** </span>
+### <span style="color:#a1007a"> **2011 - MAS: Center of Applied Statistics, Novi Sad** </span>
+#### < <span style="color:#a1007a"> **teaching** </span>
+#### < <span style="color:#a1007a"> **consluting** </span>
+]
+
+---
+
+
+class: inverse, middle
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> **R in Novi Sad** </span>
+
+.pull-left[
+<img src="maze2.png" align="center" height = 400>
+]
+
+.pull-right[
+### <span style="color:#a1007a"> **Now** </span>
+### <span style="color:#a1007a"> **2018 - UCPS, PMF, FTN, PF, TF, EF...** </span>
+]
