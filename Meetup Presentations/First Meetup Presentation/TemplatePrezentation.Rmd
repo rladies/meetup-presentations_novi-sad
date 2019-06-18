@@ -10,17 +10,6 @@ output:
           highlightLines: true
           
           
----
-
-
-class: inverse, middle
-
-
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
-
-# <span style="color:#a1007a"> ** Who are R - Ladies Global ** </span>
 
 ---
 
@@ -36,12 +25,101 @@ background-size: 15% 10%
 #  ** Meet  R Ladies Novi Sad **
 
 .pull-left[
-### Ranka Medenica      
-### Maja Pokusevski     
-### Milena Kresoja       
-### Olivera GrljeviÄ‡      
-### Tatjana KecojeciÄ‡       
-### Katica RistiÄ‡
+- ### <span style="color:#a1007a"> Tatjana Kecojeciæ  </span>
+- ### Maja Pokusevski     
+- ### Milena Kresoja 
+- ### Katica Ristiæ
+- ### Ranka Medenica      
+- ### Olivera Grljeviæ
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Who are R - Ladies Global ** </span>
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+<span style="color:#a1007a"> Tanja tvoj deo ide ovde :) </span>
+
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### <span style="color:#a1007a"> Maja Pokusevski </span>     
+- ### Milena Kresoja 
+- ### Katica Ristiæ
+- ### Ranka Medenica      
+- ### Olivera Grljeviæ
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+<span style="color:#a1007a"> Maja tvoj deo ide ovde :) </span>
+
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### Maja Pokusevski     
+- ### <span style="color:#a1007a"> Milena Kresoja </span>
+- ### Katica Ristiæ
+- ### Ranka Medenica      
+- ### Olivera Grljeviæ
 ]
 
 .pull-right[
@@ -52,36 +130,53 @@ background-size: 15% 10%
 
 ---
 
-
 class: inverse, middle
 
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
 
-# <span style="color:#a1007a"> **Meet Novi Sad throught R** </span>
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### Maja Pokusevski     
+- ### <span style="color:#a1007a"> Milena Kresoja </span>
+- ### Katica Ristiæ
+- ### Ranka Medenica      
+- ### Olivera Grljeviæ
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
 
 
 ---
 
-
 class: inverse, top
 
-# <span style="color:#a1007a"> **Milena Kresoja** </span>
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+# <span style="color:#a1007a">**Milena Kresoja** </span>
 
 .pull-left[
 ## **Education**
-- </span> **BSc** Finantial Mathematics
-- </span> **MSc** Applied Mathematics
-- </span> **PhD** Numerical Optimization
+-  **BSc** Finantial Mathematics
+-  **MSc** Applied Mathematics
+-  **PhD** Numerical Optimization
 ]
 
 .pull-right[
 ## Work Experience
-- </span> **2011 - 2018:** Center of Applied Statistics, Novi Sad
-- </span> **2011 - 2018:** Faculty of Sciences, Novi Sad
-- </span> **2018 - ** Institute of Economic Sciences, Belgrade
-- </span> **2018 - ** ARPM, New York
+-  **2011 - 2018:** Center of Applied Statistics, Novi Sad
+-  **2011 - 2018:** Faculty of Sciences, Novi Sad
+-  **2018 - ** Institute of Economic Sciences, Belgrade
+-  **2018 - ** ARPM, New York
 
 ]
 
@@ -127,3 +222,132 @@ background-size: 96% 97%
 ### <span style="color:#a1007a"> **Now** </span>
 ### <span style="color:#a1007a"> **2018 - UCPS, PMF, FTN, PF, TF, EF...** </span>
 ]
+
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### Maja Pokusevski      
+- ### Milena Kresoja 
+- ### <span style="color:#a1007a"> Katica Ristiæ </span>
+- ### Ranka Medenica      
+- ### Olivera Grljeviæ
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+<span style="color:#a1007a">  :) </span>
+
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### Maja Pokusevski      
+- ### Milena Kresoja 
+- ### Katica Ristiæ
+- ### <span style="color:#a1007a"> Ranka Medenica  </span>    
+- ### Olivera Grljeviæ
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+<span style="color:#a1007a"> Ranka tvoj deo ide ovde :) </span>
+
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  ** Meet  R Ladies Novi Sad **
+
+.pull-left[
+- ### Tatjana Kecojeciæ  
+- ### Maja Pokusevski      
+- ### Milena Kresoja 
+- ### Katica Ristiæ
+- ### Ranka Medenica      
+- ### <span style="color:#a1007a"> Olivera Grljeviæ </span>
+]
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+<span style="color:#a1007a"> Olivera tvoj deo ide ovde :) </span>
+
+
+
+
+---
+
+
+class: inverse, middle
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> **Meet Novi Sad throught R** </span>
