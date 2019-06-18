@@ -89,15 +89,26 @@ background-size: 15% 10%
 
 
 ---
-class: inverse, middle
+class: inverse, top
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
 
 
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
+<span style="color:#a1007a">**Maja Pokusevski**</span>
 
-<span style="color:#a1007a"> Maja tvoj deo ide ovde :) </span>
+.pull-left[
+## **Education**
+-  **BSc** Psychology
+-  **MSc** Applied Statistics
+]
 
+.pull-right[
+## **Work Experience**
+-  **2011 - 2016:** Freelance - Data science and Applied statistics 
+-  **2016 - :** Data analyst - Ninamedia Research, Novi Sad
+]
 
 
 ---
