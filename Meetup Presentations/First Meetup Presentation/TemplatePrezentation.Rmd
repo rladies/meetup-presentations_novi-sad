@@ -25,12 +25,12 @@ background-size: 15% 10%
 #  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span> 
 
 .pull-left[
-- ### <span style="color:#a1007a"> Tatjana Kecojeciæ  </span>
+- ### <span style="color:#a1007a"> Tatjana KecojeciÄ‡  </span>
 - ### Maja Pokusevski     
 - ### Milena Kresoja 
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### Ranka Medenica      
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -75,12 +75,12 @@ background-size: 15% 10%
 # <span style="color:#a1007a">  ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### <span style="color:#a1007a"> Maja Pokusevski </span>     
 - ### Milena Kresoja 
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### Ranka Medenica      
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -114,12 +114,12 @@ background-size: 15% 10%
 #  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski     
 - ### <span style="color:#a1007a"> Milena Kresoja </span>
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### Ranka Medenica      
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -141,12 +141,12 @@ background-size: 15% 10%
 #  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski     
 - ### <span style="color:#a1007a"> Milena Kresoja </span>
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### Ranka Medenica      
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -239,12 +239,12 @@ background-size: 15% 10%
 #  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### <span style="color:#a1007a"> Katica Ristiæ </span>
+- ### <span style="color:#a1007a"> Katica RistiÄ‡ </span>
 - ### Ranka Medenica      
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -260,14 +260,14 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# <span style="color:#a1007a">**Katica Ristiæ** </span>
+# <span style="color:#a1007a">**Katica RistiÄ‡** </span>
 
 .pull-left[
 ## **Education**
 -  **MSc** Applied Mathematics
 -  **MIT MicroMasters** Statistics and Data Science
 ## Work Experience
--  **2008 - 2019** Teacher of Mathematics, Beèej and Veternik
+-  **2008 - 2019** Teacher of Mathematics, BeÄ‡ej and Veternik
 ]
 
 .pull-right[
@@ -307,12 +307,12 @@ background-size: 15% 10%
 # <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### <span style="color:#a1007a"> Ranka Medenica  </span>    
-- ### Olivera Grljeviæ
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -345,12 +345,12 @@ background-size: 15% 10%
 #  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
-- ### Tatjana Kecojeciæ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### Katica Ristiæ
+- ### Katica RistiÄ‡
 - ### Ranka Medenica      
-- ### <span style="color:#a1007a"> Olivera Grljeviæ </span>
+- ### <span style="color:#a1007a"> Olivera GrljeviÄ‡ </span>
 ]
 
 .pull-right[
@@ -366,7 +366,23 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-<span style="color:#a1007a"> Olivera tvoj deo ide ovde :) </span>
+# <span style="color:#a1007a"> **Olivera GrljeviÄ‡ ** </span>
+
+.pull-left[
+## <span style="color:#a1007a">**Education** </span>
+- <span style="color:#a1007a"> **BSc** Economics - Business Information Systems </span>
+- <span style="color:#a1007a"> **MSc** Economics - Business Information Systems </span>
+- <span style="color:#a1007a"> **PhD** Business Informatics </span>
+]
+
+.pull-right[
+## <span style="color:#a1007a">**Work Experience & current projects** </span>
+- <span style="color:#a1007a"> **2007 - Present** Faculty of Economics, University of Novi Sad </span>
+- <span style="color:#a1007a"> **- ** Sentiment analysis of user-generated content written in Serbian </span>
+- <span style="color:#a1007a"> **- ** Automated classification of images in online ads </span>
+- <span style="color:#a1007a"> **- ** ADA team member </span>
+
+]
 
 
 
