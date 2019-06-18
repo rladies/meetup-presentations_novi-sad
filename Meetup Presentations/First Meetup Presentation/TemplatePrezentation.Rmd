@@ -22,7 +22,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span> 
 
 .pull-left[
 - ### <span style="color:#a1007a"> Tatjana Kecojeciæ  </span>
@@ -72,7 +72,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+# <span style="color:#a1007a">  ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
@@ -111,7 +111,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
@@ -138,7 +138,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
@@ -236,7 +236,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
@@ -251,17 +251,47 @@ background-size: 15% 10%
 <img src="prvaFotka.jpg" align="left" img width="250%">
 ]
 
+
 ---
-class: inverse, middle
+
+class: inverse, top
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+# <span style="color:#a1007a">**Katica Ristiæ** </span>
+
+.pull-left[
+## **Education**
+-  **MSc** Applied Mathematics
+-  **MIT MicroMasters** Statistics and Data Science
+## Work Experience
+-  **2008 - 2019** Teacher of Mathematics, Beèej and Veternik
+]
+
+.pull-right[
+## Talks
+-  **April 2019** WiDS Conference, Subotica
+-  **Maj 2019** Data Science Serbia Meetup #29, Beograd
+-  **Jun 2019** R - Ladies Novi Sad Meetup #1, Novi Sad
+]
+
+
+
+
+---
+
+class: inverse, top
 
 
 background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-<span style="color:#a1007a">  :) </span>
+# <span style="color:#a1007a"> **Peticija** </span>
 
-
+<img src="Peticija.png" align="center" height = 400>
 
 ---
 
@@ -274,7 +304,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+# <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
@@ -312,7 +342,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  ** Meet  R Ladies Novi Sad **
+#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
 
 .pull-left[
 - ### Tatjana Kecojeciæ  
