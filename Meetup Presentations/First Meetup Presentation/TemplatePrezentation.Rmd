@@ -66,7 +66,7 @@ background-size: 15% 10%
 - ### Maja Pokusevski     
 - ### Milena Kresoja 
 - ### Katica Ristić
-- ### Ranka Medenica      
+- ### Ranka Medenica Todorović
 - ### Olivera Grljević
 ]
 
@@ -162,7 +162,7 @@ background-size: 15% 10%
 - ### <span style="color:#a1007a"> Maja Pokusevski </span>     
 - ### Milena Kresoja 
 - ### Katica Ristić
-- ### Ranka Medenica      
+- ### Ranka Medenica Todorović      
 - ### Olivera Grljević
 ]
 
@@ -182,35 +182,6 @@ background-size: 96% 97%
 <span style="color:#a1007a"> Maja tvoj deo ide ovde :) </span>
 
 
-
----
-
-
-class: inverse, middle
-
-
-background-image: url("rladies-wide-logo.png")
-background-position: top right
-background-size: 15% 10%
-
-
-#  <span style="color:#a1007a"> ** Meet  R Ladies Novi Sad ** </span>
-
-.pull-left[
-- ### Tatjana Kecojecić  
-- ### Maja Pokusevski     
-- ### <span style="color:#a1007a"> Milena Kresoja </span>
-- ### Katica Ristić
-- ### Ranka Medenica      
-- ### Olivera Grljević
-]
-
-.pull-right[
-<img src="prvaFotka.jpg" align="left" img width="250%">
-]
-
-
-
 ---
 
 class: inverse, middle
@@ -228,7 +199,7 @@ background-size: 15% 10%
 - ### Maja Pokusevski     
 - ### <span style="color:#a1007a"> Milena Kresoja </span>
 - ### Katica Ristić
-- ### Ranka Medenica      
+- ### Ranka Medenica Todorović     
 - ### Olivera Grljević
 ]
 
@@ -326,7 +297,7 @@ background-size: 15% 10%
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
 - ### <span style="color:#a1007a"> Katica Ristić </span>
-- ### Ranka Medenica      
+- ### Ranka Medenica Todorović    
 - ### Olivera Grljević
 ]
 
@@ -394,7 +365,7 @@ background-size: 15% 10%
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
 - ### Katica Ristić
-- ### <span style="color:#a1007a"> Ranka Medenica  </span>    
+- ### <span style="color:#a1007a"> Ranka Medenica Todorović </span>    
 - ### Olivera Grljević
 ]
 
@@ -403,15 +374,30 @@ background-size: 15% 10%
 ]
 
 ---
-class: inverse, middle
 
+class: inverse, top
 
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
 
-<span style="color:#a1007a"> Ranka tvoj deo ide ovde :) </span>
+# <span style="color:#a1007a">**Ranka Medenica Todorović** </span>
 
+.pull-left[
+## **Education**
+-  **BSc** Sociology
+-  **MSc** Regional Planning and Development
+-  **PhD** Architecture and Urban Planning
+
+## Learning R
+- PhD thesis development: implementation of the user-generated content on social media for the purpose of defining urban planning and development parameters
+]
+
+.pull-right[
+## Work Experience
+-  **2013 - 2014:** Centre for European Regional and Local Studies - EUROREG, University of Warsaw
+-  **2014 - 2018:** Department of Architecture and Urban Planning, Faculty of Technical Sciences, University of Novi Sad
+]
 
 
 ---
@@ -432,7 +418,7 @@ background-size: 15% 10%
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
 - ### Katica Ristić
-- ### Ranka Medenica      
+- ### Ranka Medenica Todorović      
 - ### <span style="color:#a1007a"> Olivera Grljević </span>
 ]
 
@@ -479,4 +465,4 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-# <span style="color:#a1007a"> **Meet Novi Sad throught R** </span>
+# <span style="color:#a1007a"> **Meet Novi Sad through R** </span>
