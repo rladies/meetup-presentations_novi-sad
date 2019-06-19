@@ -9,8 +9,45 @@ output:
     nature:
           highlightLines: true
           
-          
+---
+class: inverse, middle
 
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+<img src="R-LadiesGlobal_RBG_online_LogoWithText.png" align="left" img width="150%">
+]
+
+.pull-right[
+##<span style="color:#a1007a"> Worldwide organisation that promotes gender diversity in the R community via meetups and mentorship in friendly and safe environment. </span>
+]          
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+<img src="https://media.giphy.com/media/2aAcLrYtiX8YM/giphy.gif" align="cetre" img width="150%">
+
+<span style="color:#a1007a"> - R-Ladies Global, designed to improve the gender diversity of R users worldwide and in particular, to improve the participation and experience of women in the R community.</span>
+]
+
+.pull-right[
+
+
+<span style="color:#a1007a">- **R-Ladies Novi Sad** will host a number of talks and workshops about the use of R. It doesn't matter if you never used R or if you are an R expert, **R-Ladies Novi Sad** welcomes anyone with an interest in R.</span> 
+
+<span style="color:#a1007a">- The goal is to promote R, exchange knowledge and create an R community among women.</span> 
+
+<span style="color:#a1007a">- We are fully inclusive and respectful of LGBT identities - our priority is to provide a safe community space for anyone identifying as female who is interested in and/or working with R.</span>
+]
 ---
 
 
@@ -37,8 +74,67 @@ background-size: 15% 10%
 <img src="prvaFotka.jpg" align="left" img width="250%">
 ]
 
+---
+
+class: inverse, top
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+# <span style="color:#a1007a">**Tatjana kecojević** </span>
+
+.pull-left[
+### **Education**
+- University of Manchester, UK; Ph.D., Statistics
+
+- University of Central Lancashire, UK; PGCert. Postgraduate Certificate in Teaching and Learning in Higher Education
+
+- University of Belgrade, Serbia; BSc, Information Systems Engineering
+
+<img src="IMG_0232.jpg" align="middle" img width="60%">
+]
+
+.pull-right[
+
+<img src="IMG_6682.jpg" align="centre" img width="80%">
+
+
+### Work Experience
+
+- **2018 - date**  DS instructor at DataTeka
+
+- **2000 - 2017**  Senior University lecturer of Quantitative Modelling
+]
 
 ---
+
+class: inverse, top
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+# <span style="color:#a1007a">**Tatjana kecojević: Community Activities** </span>
+
+- [**klikR**](http://klikr.rbind.io) is an initiative designed to introduce and make accessible the art world of data science with the focus on the younger generation, existing students and those wishing to change the course of their career. It fosters greater inclusivity and gender diversity.
+
+- **Surveys leader for [R Forwards](https://forwards.github.io/)**: R Foundation taskforce on women and other under-represented groups.
+
+- **[R-Ladies](https://rladies.org/)** Manchester, BG, NS
+
+- Member of the Program Committee **Data Science Conference 5.0** (**[DSC 5.0](https://datasciconference.com/)**) 
+
+- 2019 WiDS Ambassadors at **Women in Data Science** ([**WiDS**](https://widssubotica.netlify.com)) at Stanford University: aims to inspire and educate data scientists worldwide, regardless of gender, and support women in the field.
+
+
+
+- [**RBootcamp**](http://rbootcamp.rbind.io) is a platform built to provide an insightful overview on the data democracy process through the use of free open source data analysis software packages.
+
+
+
+---
+
 class: inverse, middle
 
 
@@ -47,19 +143,6 @@ background-position: center
 background-size: 96% 97%
 
 # <span style="color:#a1007a"> ** Who are R - Ladies Global ** </span>
-
-
----
-class: inverse, middle
-
-
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
-
-<span style="color:#a1007a"> Tanja tvoj deo ide ovde :) </span>
-
-
 
 ---
 
@@ -89,26 +172,15 @@ background-size: 15% 10%
 
 
 ---
-class: inverse, top
-
-background-image: url("rladies-wide-logo.png")
-background-position: top right
-background-size: 15% 10%
+class: inverse, middle
 
 
-<span style="color:#a1007a">**Maja Pokusevski**</span>
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
 
-.pull-left[
-## **Education**
--  **BSc** Psychology
--  **MSc** Applied Statistics
-]
+<span style="color:#a1007a"> Maja tvoj deo ide ovde :) </span>
 
-.pull-right[
-## **Work Experience**
--  **2011 - 2016:** Freelance - Data science and Applied statistics 
--  **2016 - :** Data analyst - Ninamedia Research, Novi Sad
-]
 
 
 ---
