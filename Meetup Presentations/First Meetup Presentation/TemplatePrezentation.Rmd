@@ -175,12 +175,25 @@ background-size: 15% 10%
 class: inverse, middle
 
 
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
 
-<span style="color:#a1007a"> Maja tvoj deo ide ovde :) </span>
 
+#<span style="color:#a1007a">**Maja Pokusevski**</span>
+
+
+.pull-left[
+## **Education**
+-  **BSc** Psychology
+-  **MSc** Applied Statistics
+]
+
+.pull-right[
+## **Work Experience**
+-  **2011 - 2016:** Freelance - Data science and Applied statistics 
+-  **2016 - :** Data analyst - Ninamedia Research, Novi Sad
+]
 
 ---
 
@@ -277,7 +290,24 @@ background-size: 96% 97%
 ### <span style="color:#a1007a"> **2018 - UCPS, PMF, FTN, PF, TF, EF...** </span>
 ]
 
+---
 
+
+class: inverse, middle
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> **Visit to R by industry** </span>
+
+.pull-left[
+<img src="rpic1.png" align="center" height = 400>
+]
+
+.pull-right[
+### <span style="color:#a1007a"> **Based on visits to Stack Overflow questions** </span>
+]
 
 ---
 
