@@ -33,6 +33,20 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
+# We're a part of it! 😀♥️
+
+<img src="NS_World.png" align="left" img width="90%">
+
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
 .pull-left[
 <img src="https://media.giphy.com/media/2aAcLrYtiX8YM/giphy.gif" align="cetre" img width="150%">
 
