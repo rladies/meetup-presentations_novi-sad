@@ -34,16 +34,16 @@ definisati unutar odgovarajuceg css fajla.-->
 
 #  <span style="color:deeppink"> ** Meet  R Ladies Novi Sad ** </span> 
 
-<!-- # sluzi da stavimo doznanja R -u da je upitanju naslov
+<!-- # koristimo da stavimo doznanja R -u da je u pitanju naslov.
 Ukoliko koristimo vise # kao sto je to ispit uradjeno, teks
 ce biti manji.-->
 
-<!-- Komanda <span style="color:deeppink"> tekst </span> sluzi 
-da promenimo boju teksta, u ovom slucaju boja iz R spektra 
+<!-- Komanda <span style="color:deeppink"> tekst </span> koristi se 
+za menjanje boje teksta, u ovom slucaju boja iz R spektra 
 je deeppink.-->
 
-<!-- **tekst** Dve zvezdice ispred i nakon teksta sluze da 
-bi se tekst potamnio, tj. za opciju bold. -->
+<!-- **tekst** Dve zvezdice ispred i nakon teksta koristimo da 
+ potamnimo tekst, tj. za opciju bold. -->
 
 
 .pull-left[
@@ -56,7 +56,7 @@ bi se tekst potamnio, tj. za opciju bold. -->
 ]
 
 <!-- Komanda .pull-left[] i .pull-right[]
-sluze da se prostor slajda podeli u dve kolone.
+koristimo da prostor slajda podeli u dve kolone.
 -->
 <!-- Komanda jedna crtica sluzi da bi se oznacila
 teza -->
@@ -203,7 +203,7 @@ background-size: 15% 10%
 
 # <span style="color:deeppink">**Tatjana kecojević: Community Activities** </span>
 
-<!-- Ubacivanje linka je jednostavno pomocu zagrada ubaciti [Naziv Linka](link) -->
+<!-- Ubacivanje linka je jednostavno pomocu zagrada ubaciti, evo primera [Naziv Linka](link) -->
 
 
 - [**klikR**](http://klikr.rbind.io) is an initiative designed to introduce and make accessible the art world of data science with the focus on the younger generation, existing students and those wishing to change the course of their career. It fosters greater inclusivity and gender diversity.
@@ -595,6 +595,6 @@ background-size: 96% 97%
 
 
 <!-- I to bi bilo to! -->
-<!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u -->
-<!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU -->
-<!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI SAD-->
+<!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u. -->
+<!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU. -->
+<!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI SAD!-->
