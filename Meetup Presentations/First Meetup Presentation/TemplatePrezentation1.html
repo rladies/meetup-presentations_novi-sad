@@ -20,7 +20,6 @@ class: center, middle, inverse, title-slide
 ---
 
 
-
 class: inverse, middle
 
 
@@ -28,21 +27,58 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
+&lt;!-- Tri crtice --- su pocetak slajda
+A iznad njih su redom naslov, podnaslov, 
+autor, datum, paket koji je koriscen i 
+koji css fajlovi.--&gt;
 
-#  &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt; 
+&lt;!-- Zatim su postavljene
+osobine slajda, tj. definisemo njegovu 
+klasu koju posle mozemo menjati, tj. 
+definisati unutar odgovarajuceg css fajla.--&gt;
+
+
+&lt;!-- Nakon klase definisana je pozadina slajda.--&gt;
+
+
+#  &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt; 
+
+&lt;!-- # sluzi da stavimo doznanja R -u da je upitanju naslov
+Ukoliko koristimo vise # kao sto je to ispit uradjeno, teks
+ce biti manji.--&gt;
+
+&lt;!-- Komanda &lt;span style="color:deeppink"&gt; tekst &lt;/span&gt; sluzi 
+da promenimo boju teksta, u ovom slucaju boja iz R spektra 
+je deeppink.--&gt;
+
+&lt;!-- **tekst** Dve zvezdice ispred i nakon teksta sluze da 
+bi se tekst potamnio, tj. za opciju bold. --&gt;
+
 
 .pull-left[
 - ### Tatjana Kecojevic
 - ### Maja Pokusevski     
 - ### Milena Kresoja 
-- ### Katica RistiÄ
-- ### Ranka Medenica TodoroviÄ
-- ### Olivera GrljeviÄ
+- ### Katica RistiÄ‡
+- ### Ranka Medenica TodoroviÄ‡
+- ### Olivera GrljeviÄ‡
 ]
+
+&lt;!-- Komanda .pull-left[] i .pull-right[]
+sluze da se prostor slajda podeli u dve kolone.
+--&gt;
+&lt;!-- Komanda jedna crtica sluzi da bi se oznacila
+teza --&gt;
+
 
 .pull-right[
 &lt;img src="prvaFotka.jpg" align="left" img width="250%"&gt;
 ]
+
+&lt;!-- Ukoliko zelite da ubacite sliku/animacije koja nije pozadina 
+to mozete uraditi komandom &lt;img src="ImeSlike.extenzija ili URLputanja.gif" align="left" img width="250%"&gt;
+pri cemu mozete odrediti mesto prikazivanja slike, kao i njenu visinu/velicinu
+--&gt;
 
 ---
 
@@ -94,6 +130,19 @@ background-size: 96% 97%
 
 &lt;span style="color:#a1007a"&gt;- We are fully inclusive and respectful of LGBT identities - our priority is to provide a safe community space for anyone identifying as female who is interested in and/or working with R.&lt;/span&gt;
 ]
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt;  We're a part of it!  &lt;/span&gt; 
+
+&lt;img src="NS_World.png" align="left" img width="90%"&gt;
+
 ---
 
 
@@ -105,15 +154,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt; 
+#  &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt; 
 
 .pull-left[
-- ### &lt;span style="color:#a1007a"&gt; Tatjana KecojeciÄ  &lt;/span&gt;
+- ### &lt;span style="color:deeppink"&gt; Tatjana KecojeciÄ‡  &lt;/span&gt;
 - ### Maja Pokusevski     
 - ### Milena Kresoja 
-- ### Katica RistiÄ
-- ### Ranka Medenica TodoroviÄ
-- ### Olivera GrljeviÄ
+- ### Katica RistiÄ‡
+- ### Ranka Medenica TodoroviÄ‡
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -128,7 +177,7 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# &lt;span style="color:#a1007a"&gt;**Tatjana kecojeviÄ** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;**Tatjana kecojeviÄ‡** &lt;/span&gt;
 
 .pull-left[
 ### **Education**
@@ -161,7 +210,10 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# &lt;span style="color:#a1007a"&gt;**Tatjana kecojeviÄ: Community Activities** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;**Tatjana kecojeviÄ‡: Community Activities** &lt;/span&gt;
+
+&lt;!-- Ubacivanje linka je jednostavno pomocu zagrada ubaciti [Naziv Linka](link) --&gt;
+
 
 - [**klikR**](http://klikr.rbind.io) is an initiative designed to introduce and make accessible the art world of data science with the focus on the younger generation, existing students and those wishing to change the course of their career. It fosters greater inclusivity and gender diversity.
 
@@ -192,15 +244,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-# &lt;span style="color:#a1007a"&gt;  ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;  ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
 
 .pull-left[
-- ### Tatjana KecojeciÄ  
-- ### &lt;span style="color:#a1007a"&gt; Maja Pokusevski &lt;/span&gt;     
+- ### Tatjana KecojeciÄ‡  
+- ### &lt;span style="color:deeppink"&gt; Maja Pokusevski &lt;/span&gt;     
 - ### Milena Kresoja 
-- ### Katica RistiÄ
-- ### Ranka Medenica TodoroviÄ      
-- ### Olivera GrljeviÄ
+- ### Katica RistiÄ‡
+- ### Ranka Medenica TodoroviÄ‡      
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -217,7 +269,7 @@ background-position: top right
 background-size: 15% 10%
 
 
-#&lt;span style="color:#a1007a"&gt;**Maja Pokusevski**&lt;/span&gt;
+#&lt;span style="color:deeppink"&gt;**Maja Pokusevski**&lt;/span&gt;
 
 
 .pull-left[
@@ -242,15 +294,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
+#  &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
 
 .pull-left[
-- ### Tatjana KecojeciÄ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski     
-- ### &lt;span style="color:#a1007a"&gt; Milena Kresoja &lt;/span&gt;
-- ### Katica RistiÄ
-- ### Ranka Medenica TodoroviÄ     
-- ### Olivera GrljeviÄ
+- ### &lt;span style="color:deeppink"&gt; Milena Kresoja &lt;/span&gt;
+- ### Katica RistiÄ‡
+- ### Ranka Medenica TodoroviÄ‡     
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -266,7 +318,7 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# &lt;span style="color:#a1007a"&gt;**Milena Kresoja** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;**Milena Kresoja** &lt;/span&gt;
 
 .pull-left[
 ## **Education**
@@ -357,15 +409,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
+#  &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
 
 .pull-left[
-- ### Tatjana KecojeciÄ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### &lt;span style="color:#a1007a"&gt; Katica RistiÄ &lt;/span&gt;
-- ### Ranka Medenica TodoroviÄ    
-- ### Olivera GrljeviÄ
+- ### &lt;span style="color:deeppink"&gt; Katica RistiÄ‡ &lt;/span&gt;
+- ### Ranka Medenica TodoroviÄ‡    
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -381,14 +433,14 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# &lt;span style="color:#a1007a"&gt;**Katica RistiÄ** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;**Katica RistiÄ‡** &lt;/span&gt;
 
 .pull-left[
 ## **Education**
 -  **MSc** Applied Mathematics
 -  **MIT MicroMasters** Statistics and Data Science
 ## Work Experience
--  **2008 - 2019** Teacher of Mathematics, BeÄej and Veternik
+-  **2008 - 2019** Teacher of Mathematics, BeÄ‡ej and Veternik
 ]
 
 .pull-right[
@@ -425,15 +477,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-# &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
 
 .pull-left[
-- ### Tatjana KecojeciÄ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### Katica RistiÄ
-- ### &lt;span style="color:#a1007a"&gt; Ranka Medenica TodoroviÄ &lt;/span&gt;    
-- ### Olivera GrljeviÄ
+- ### Katica RistiÄ‡
+- ### &lt;span style="color:deeppink"&gt; Ranka Medenica TodoroviÄ‡ &lt;/span&gt;    
+- ### Olivera GrljeviÄ‡
 ]
 
 .pull-right[
@@ -448,7 +500,7 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-# &lt;span style="color:#a1007a"&gt;**Ranka Medenica TodoroviÄ** &lt;/span&gt;
+# &lt;span style="color:deeppink"&gt;**Ranka Medenica TodoroviÄ‡** &lt;/span&gt;
 
 .pull-left[
 ## **Education**
@@ -478,15 +530,15 @@ background-position: top right
 background-size: 15% 10%
 
 
-#  &lt;span style="color:#a1007a"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
+#  &lt;span style="color:deeppink"&gt; ** Meet  R Ladies Novi Sad ** &lt;/span&gt;
 
 .pull-left[
-- ### Tatjana KecojeciÄ  
+- ### Tatjana KecojeciÄ‡  
 - ### Maja Pokusevski      
 - ### Milena Kresoja 
-- ### Katica RistiÄ
-- ### Ranka Medenica TodoroviÄ      
-- ### &lt;span style="color:#a1007a"&gt; Olivera GrljeviÄ &lt;/span&gt;
+- ### Katica RistiÄ‡
+- ### Ranka Medenica TodoroviÄ‡      
+- ### &lt;span style="color:deeppink"&gt; Olivera GrljeviÄ‡ &lt;/span&gt;
 ]
 
 .pull-right[
@@ -502,7 +554,7 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-# &lt;span style="color:#a1007a"&gt; **Olivera GrljeviÄ ** &lt;/span&gt;
+# &lt;span style="color:#a1007a"&gt; **Olivera GrljeviÄ‡ ** &lt;/span&gt;
 
 .pull-left[
 ## &lt;span style="color:#a1007a"&gt;**Education** &lt;/span&gt;
@@ -549,6 +601,12 @@ background-position: center
 background-size: 96% 97%
 
 # &lt;span style="color:#a1007a"&gt; **Meet Novi Sad through R** &lt;/span&gt;
+
+
+&lt;!-- I to bi bilo to! --&gt;
+&lt;!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u --&gt;
+&lt;!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU --&gt;
+&lt;!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI --&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
