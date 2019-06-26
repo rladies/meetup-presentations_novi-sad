@@ -597,4 +597,4 @@ background-size: 96% 97%
 <!-- I to bi bilo to! -->
 <!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u -->
 <!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU -->
-<!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI -->
+<!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI SAD-->
