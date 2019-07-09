@@ -8,11 +8,11 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+**Skinite ovaj pdf dokument sa GitHub-a uz pomoæ dugmeta Download (desno iznad dokumenta) da bi linkovi bili dostupni.**
 
 ## Kako instalirati R i RStudio
 
-Potrebno je prvo instalirati [**R**](https://cran.r-project.org/bin/windows/base/) ( mala napomena: veæina podebljanih reèi su linkovi, kliknite npr. na slovo R da biste otvorili link za instalaciju ),
+Potrebno je prvo instalirati [**R**](https://cran.r-project.org/bin/windows/base/) (mala napomena: veæina podebljanih reèi su linkovi, kliknite npr. na slovo R da biste otvorili link za instalaciju),
 a zatim i [**RStudio**](https://cran.r-project.org/bin/windows/base/). Ukoliko imate potrebu možete pogledati i [**video**](https://www.youtube.com/watch?v=GAGUDL-4aVw) sa detaljnim postupkom. 
 
 ## GitHub R - Ladies Novi Sad
@@ -43,7 +43,7 @@ Ukoliko kasnije želite na Vaš GitHub nalog da postavite našu prezentaciju i menj
      ` git status`     
  - *Dodavanje svih izmena nastalih u prezentaciji*      
       ` git add * `    
- - *Komitovanje ( izvršavanje ) sa porukom*    
+ - *Komitovanje (izvršavanje) sa porukom*    
     ` git commit -m "tekst Vase izmene" `    
  - *Postavljanje na GitHub*    
       `git push `  
@@ -66,7 +66,7 @@ Ukoliko Vam se otvori ovakav prozor odaberite **Open in Browser**
 ## Poziv na saradnju :)
 
 
-Toliko od nas za poèetak :) Nadamo se da je ovaj naš prvi zajednièki projekat bio zanimljiv i koristan. Od sada pa nadalje sve naše rezultate koje budemo zajedno u R-u napravili moæi æemo veoma lako i prezentovati! Ako ste kojim sluèajem imali problem oko bilo èega iz ovog uputstva možete nam pisati na [**Meetup  stranici**](https://www.meetup.com/rladies-novi-sad/) ili na naš mail **novisad@rladies.org** i neko od nas æe Vam u najkraæem moguæem roku odgovoriti :) Na mail nam možete pisati i o Vašim sugestijama, projektima, idejama ili sponzorstvima (za poèetak bi trebalo na našim Meetup - ima da se obezbedi osveženje). 
+Toliko od nas za poèetak :) Nadamo se da je ovaj naš prvi zajednièki projekat bio zanimljiv i koristan. Od sada pa nadalje sve naše rezultate koje budemo zajedno u R-u napravili moæi æemo veoma lako i prezentovati! Ako ste kojim sluèajem imali problem oko bilo èega iz ovog uputstva možete nam pisati na [**Meetup  stranici**](https://www.meetup.com/rladies-novi-sad/) ili na naš mail **novisad@rladies.org** i neko od nas æe Vam u najkraæem moguæem roku odgovoriti :) Na mail nam možete pisati i o Vašim sugestijama, projektima, idejama ili sponzorstvima (za poèetak bi trebalo na našim Meetup-ima obezbediti osveženje). 
 
 Do skorijeg viðenja i druženja srdaèan pozdrav od      
  **R Ladies Novi Sad** 
