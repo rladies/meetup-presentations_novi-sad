@@ -16,5 +16,5 @@ in this folder we will have our presentations from all the meetups.
 If you have any questions or any suggestions, please contact us on      
 novisad@rladies.org :) 
 
-Wish you all the best,
+Wish you all the best,      
 R-Ladies Novi Sad Team
