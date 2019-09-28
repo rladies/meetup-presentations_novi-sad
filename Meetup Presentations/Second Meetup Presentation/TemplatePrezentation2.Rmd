@@ -12,7 +12,7 @@ output:
 ---
 
 class: inverse, middle
-
+<!-- Sys.setlocale(locale= 'Serbian (Latin)')-->
 
 background-image: url("rladies-wide-logo.png")
 background-position: top right
@@ -47,12 +47,12 @@ je deeppink.-->
 
 
 .pull-left[
-- ### Tatjana Kecojević
-- ### Maja Pokuševski     
+- ### Tatjana Kecojevic
+- ### Maja Pokusevski     
 - ### Milena Kresoja 
-- ### Katica Ristić
-- ### Ranka Medenica Todorović
-- ### Olivera Grljević
+- ### Katica Ristic
+- ### Ranka Medenica Todorovic
+- ### Olivera Grljevic
 ]
 
 <!-- Komanda .pull-left[] i .pull-right[]
@@ -169,7 +169,7 @@ background-size: 15% 10%
 
 - belezi dramatican rast proteklih godina
 
-- u 2019. godini zauzima 5. mesto na IEEE rang listi top programskih jezika [(IEEE - *Institute of Electrical and Electronics Engineers* - najvece svetsko udruzenje inzenjera elektrotehnike) ](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2019)
+- u 2019. godini zauzima 5. mesto na IEEE rang listi top programskih jezika [IEEE - *Institute of Electrical and Electronics Engineers* - najvece svetsko udruzenje inzenjera elektrotehnike ](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2019)
 
 - **programski jezik za statisticku analizu i graficki prikaz podataka** (i jos mnogo toga) - popularan i u drugim naucnim poljima: *machine learning*, *data science* i drugim prediktivnim tehnikama i analizama podataka
 
@@ -213,11 +213,11 @@ background-size: 15% 10%
 Instaliranje R-a sa CRAN mreze: <https://cran.r-project.org/>
 (dostupan za Linux, Windows i MacOS)
 
-- CRAN: Comprehensive R Archive Network
+CRAN: Comprehensive R Archive Network
   - distributivna mreza **R**-a i repozitorijuma paketa;
-brojni dodaci osnovnog R jezika dostupni su u vidu "paketa" preko CRAN mreze;
-  - mogucnosti R-a prosirene su putem paketa koji pruzaju dodatnu funkcionalnost i koje razvijaju korisnici;
-  - trenutno je dostupno 14977 paketa u okviru CRAN repoziturijuma.
+    - paketi - brojni dodaci osnovnog R jezika dostupni preko CRAN mreze;
+    - kroz njih se prosiruju mogucnosti R-a i pruza dodatna funkcionalnost;
+    - razvijaju ih sami korisnici - trenutno je dostupno 14977 paketa u okviru CRAN repoziturijuma.
 
 R programski jezik moze se koristiti kroz R konzolu (pokretanjem samog programa) ili u nekom od integrisanih razvojnih okruzenja (*Integrated Development Environment* - IDE)
 
@@ -296,7 +296,7 @@ Da bi sacuvali zeljeni rezultat koda, kao i kontinuitet u projektu, potrebno je 
 .pull-right[<img src="myFirstScriptR.png" align="middle" img width="150%">]
 
 
-.pull-left[Sada imate svoj prvi projekat u R-u i prvu radnu skriptu! &#9787; &#9733; &#9786;]
+.pull-left[Sada imate svoj prvi projekat u R-u i prvu radnu skriptu! &#9787; &#9733; &#9786]
 
 ---
 
@@ -345,7 +345,7 @@ background-size: 15% 10%
 
 #  <span style="color:pink"> ** RStudio & Github ** </span>
 
- Radom na projektima u R-u generise se veliki broj datoteka kojima treba upravljti i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
+ Radom na projektima u R-u generise se veliki broj datoteka kojima treba upravljati i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
  
  **GitHub** predstavlja web servis koji omogucava skladistenje Vasih repozitorijuma.
 
@@ -391,23 +391,17 @@ background-image: url("rladies-wide-logo.png")
 background-position: top right
 background-size: 15% 10%
 
-
-#  <span style="color:pink"> ** Ovde ide neki od sledećih slajdova ** </span> 
-
+#  <span style="color:pink"> ** Raspoloziva literatura ** </span>
 
 
+** R Boot Camp **
+<http://rbootcamp.rbind.io/day1/whatisr/>
 
+** Osnove R-a **
+<https://rzanat.rs/>
 
----
-
-
-class: inverse, middle
-
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
-
-# <span style="color:#a1007a"> **Ili ovakvih sladova :) ** </span>
+** Base R Cheat Sheet **
+<https://rstudio.com/wp-content/uploads/2016/05/base-r.pdf>
 
 
 
