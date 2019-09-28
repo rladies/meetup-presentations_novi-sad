@@ -165,7 +165,7 @@ background-size: 15% 10%
 
 #  <span style="color:pink"> Sta je **R**? </span>
 
-- **free open source programski jezik** - otvoreni (besplatan) softver otvorenog koda, sto znaci da je njegov izvorni kod dostupan svim korisnicima, koji ga mogu menjati, prepravljati i poboljsavati njegov sadrzaj, sto nije slucaj sa placenim sotverima
+- **free open source programski jezik** - otvoreni (besplatan) softver otvorenog koda, sto znaci da je njegov izvorni kod dostupan svim korisnicima, koji ga mogu menjati, prepravljati i poboljsavati njegov sadrzaj - sto nije slucaj sa placenim sotverima
 
 - belezi dramatican rast proteklih godina
 
@@ -191,7 +191,7 @@ background-size: 15% 10%
 
 - nastao kao open-source implementacija (implementacija otvorenog koda) programskog jezika S 
 
-- pocetkom 90-ih dva profesora (**R**oss Ihaka i **R**obert Gentleman) sa Departmana za statistiku Univerzitetu u Oklandu (Novi Zeland) poceli su sa razvojem novog jezika za statisticku i analiticki obradu podataka - u to vreme nedostajalo je programa u kojima se na brz i jednostavan nacin moglo doci do vaznih informacija o podacima
+- pocetkom 90-ih dva profesora, **R**oss Ihaka i **R**obert Gentleman, sa Departmana za statistiku Univerzitetu u Oklandu (Novi Zeland) poceli su sa razvojem novog jezika za statisticku i analiticku obradu podataka (u to vreme nedostajalo je programa u kojima se na brz i jednostavan nacin moglo doci do vaznih informacija o podacima)
 
 - **1995. godine zvanicno je objavljen R programski jezik kao open source projekat sa GNU licencom za slobodni softver - [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html) i postao je dostupan korisnicima razlicitih operativnih sistema**
 
@@ -251,7 +251,7 @@ background-size: 15% 10%
 <https://www.rstudio.com/>
 RStudio okruzenje sadrzi nekoliko prozora
 
-.pull-left[<span style="color:pink"> **Console** </span> - konzola - prozor koji prikazuje rezultate vasih komandi i vrednosti varijabli; prikazuje sta se desava nakon izvrsenog koda.]
+.pull-left[<span style="color:pink"> **Console** </span> - konzola - prozor koji prikazuje rezultate Vasih komandi i vrednosti varijabli; prikazuje sta se desava nakon izvrsenog koda.]
 .pull-right[<span style="color:pink"> **Environment** </span> - podaci na kojima trenutno radite - polje je na pocetku prazno jer jos uvek nisu ucitani podaci)]
 <img src="RStudioWindow.png" align="middle" img width="100%">
 <span style="color:pink"> **Files** </span> - prikazuje fajlove u okviru radnog direktorijuma / <span style="color:pink"> **Packages** </span> - prikazuje sve eksterne R pakete koji su instaliran na vasem lokalnom sistemu; treba da budu cekirani da bi mogli da se koriste; klikom na Packages/Install Packages instaliraju se paketi
@@ -345,9 +345,9 @@ background-size: 15% 10%
 
 #  <span style="color:pink"> ** RStudio & Github ** </span>
 
- Radom na data science projektima generise se veliki broj datoteka kojima treba upravljti i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene, i u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
+ Radom na projektima u R-u generise se veliki broj datoteka kojima treba upravljti i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
  
- **GitHub** predstavlja web servis koji omogucava skladistenje vasih repozitorijuma.
+ **GitHub** predstavlja web servis koji omogucava skladistenje Vasih repozitorijuma.
 
 Na nasoj GitHub stranici mozete skinuti danasnju prezentaciju, kao i prezentaciju sa prvog Meetup-a i sve naredne.
 <https://github.com/rladies/meetup-presentations_novi-sad>
@@ -378,7 +378,7 @@ background-size: 15% 10%
 Prateci putanju C:\...\Downloads\meetup-presentations_novi-sad\Meetup Presentations\Second Meetup Presentation
 doci cete do fajla TemplatePrezentation2**.Rmd**, pokrenite ga. Fajl ce se otvoriti u RStudio-u.
 
-Uz pomoc dugmeta Knit pokrenite prezentaciju. Posto nemate odgovarajuce pakete instalirane, RStudio ce se sam ponuditi da ih instalira za Vas. Pored toga cete ipak morati sami da instalirate xaringan paket. U desnoj polovini prozora imate dugme Install, na koje kada kliknete otvara se mali prozor kao na slici, a zatim ukucajte ime paketa i kliknite opet na dugme Install. Nakon instalacije svih paketa, trebalo bi da pritiskom na dugme Knit Vas RStudio otvori nasu prezentaciju.
+Uz pomoc dugmeta **Knit** pokrenite prezentaciju. Posto nemate odgovarajuce pakete instalirane, RStudio ce se sam ponuditi da ih instalira za Vas. Pored toga cete ipak morati sami da instalirate xaringan paket. U desnoj polovini prozora imate dugme **Install**, na koje kada kliknete otvara se mali prozor kao na slici, a zatim ukucajte ime paketa i kliknite opet na dugme Install. Nakon instalacije svih paketa, trebalo bi da pritiskom na dugme Knit Vas RStudio otvori nasu prezentaciju.
 
 <img src="RStudioR.png" align="middle" img width="140%">
 
