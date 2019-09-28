@@ -137,6 +137,252 @@ background-size: 96% 97%
 
 ---
 
+class: inverse, middle, center
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  <span style="color:pink"> ** Osnove programiranja u R-u ** </span> 
+
+
+##  <span style="color:white">  Ranka Medenica Todorovic  </span>
+
+
+##  <span style="color:white">  Maja Pokusevski  </span>
+
+---
+
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  <span style="color:pink"> Sta je **R**? </span>
+
+- **free open source programski jezik** - otvoreni (besplatan) softver otvorenog koda, sto znaci da je njegov izvorni kod dostupan svim korisnicima, koji ga mogu menjati, prepravljati i poboljsavati njegov sadrzaj, sto nije slucaj sa placenim sotverima
+
+- belezi dramatican rast proteklih godina
+
+- u 2019. godini zauzima 5. mesto na IEEE rang listi top programskih jezika [(IEEE - *Institute of Electrical and Electronics Engineers* - najvece svetsko udruzenje inzenjera elektrotehnike) ](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2019)
+
+- **programski jezik za statisticku analizu i graficki prikaz podataka** (i jos mnogo toga) - popularan i u drugim naucnim poljima: *machine learning*, *data science* i drugim prediktivnim tehnikama i analizama podataka
+
+- objedinjuje  funkcije komercijalnih statistickih programa (Statistica, Excel, SPSS) i programskih jezika (C, Pascal)
+
+- koriste ga najvece IT i high tech kompanije kao sto su Misrosoft, Google, Facebook, Twitter, Amazon, LinkedIn, itd.
+
+
+---
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  <span style="color:pink"> Kako je nastao **R**? </span>
+
+- nastao kao open-source implementacija (implementacija otvorenog koda) programskog jezika S 
+
+- pocetkom 90-ih dva profesora (**R**oss Ihaka i **R**obert Gentleman) sa Departmana za statistiku Univerzitetu u Oklandu (Novi Zeland) poceli su sa razvojem novog jezika za statisticku i analiticki obradu podataka - u to vreme nedostajalo je programa u kojima se na brz i jednostavan nacin moglo doci do vaznih informacija o podacima
+
+- **1995. godine zvanicno je objavljen R programski jezik kao open source projekat sa GNU licencom za slobodni softver - [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html) i postao je dostupan korisnicima razlicitih operativnih sistema**
+
+- nakon 1997. godine formira se **R Development Core Team** koji cini veca grupa statisticara, i u okviru koje se i danas razvija R
+
+
+---
+
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  <span style="color:pink"> Preuzimanje i instaliranje **R**-a </span>
+
+Instaliranje R-a sa CRAN mreze: <https://cran.r-project.org/>
+(dostupan za Linux, Windows i MacOS)
+
+- CRAN: Comprehensive R Archive Network
+  - distributivna mreza **R**-a i repozitorijuma paketa;
+brojni dodaci osnovnog R jezika dostupni su u vidu "paketa" preko CRAN mreze;
+  - mogucnosti R-a prosirene su putem paketa koji pruzaju dodatnu funkcionalnost i koje razvijaju korisnici;
+  - trenutno je dostupno 14977 paketa u okviru CRAN repoziturijuma.
+
+R programski jezik moze se koristiti kroz R konzolu (pokretanjem samog programa) ili u nekom od integrisanih razvojnih okruzenja (*Integrated Development Environment* - IDE)
+
+RStudio je najpopularnije integrisano okruzenje za R (free, open-source) <https://www.rstudio.com/>
+
+Pokretanjem R-a automatski ce biti instalirani osnovni paketi sa standardnim funkcijama.
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+<https://cran.r-project.org/>
+<img src="CRAN.png" align="middle" img width="250%">
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+<https://www.rstudio.com/>
+RStudio okruzenje sadrzi nekoliko prozora
+
+.pull-left[<span style="color:pink"> **Console** </span> - konzola - prozor koji prikazuje rezultate vasih komandi i vrednosti varijabli; prikazuje sta se desava nakon izvrsenog koda.]
+.pull-right[<span style="color:pink"> **Environment** </span> - podaci na kojima trenutno radite - polje je na pocetku prazno jer jos uvek nisu ucitani podaci)]
+<img src="RStudioWindow.png" align="middle" img width="100%">
+<span style="color:pink"> **Files** </span> - prikazuje fajlove u okviru radnog direktorijuma / <span style="color:pink"> **Packages** </span> - prikazuje sve eksterne R pakete koji su instaliran na vasem lokalnom sistemu; treba da budu cekirani da bi mogli da se koriste; klikom na Packages/Install Packages instaliraju se paketi
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+Pored navedenih, posebnu vaznost ima 4. (odnosno 1. &#9786;) prozor za pisanje R skripti - **Source** (izvorni kod) koji ce se nalaziti u gornjem levom uglu. Pre nego sto otvorimo prozor za kreiranje i cuvanje skripte, potrebno je kreirati novi projekat i uspostaviti radni direktorijum.
+
+#  <span style="color:pink"> Postavljanje radnog direktorijuma </span>
+
+Svaki projekat na kom radite u R-u ima drugacije radne skripte i fajlove. Sve sto je vezano za dati projekat neophodno je cuvati u jednom direktorijumu - folderu.
+
+.pull-left[<img src="newProjectR.png" align="middle" img width="140%">]
+
+.pull-right[<img src="myFirstRProjectR.png" align="middle" img width="140%">]
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  <span style="color:pink"> Kreiranje nove radne skripte </span>
+
+Da bi sacuvali zeljeni rezultat koda, kao i kontinuitet u projektu, potrebno je kod sacuvati kao skriptu (fajl sa ekstenzijom .R)
+
+.pull-left[<img src="newRScriptR.png" align="middle" img width="150%">]
+
+.pull-right[<img src="myFirstScriptR.png" align="middle" img width="150%">]
+
+
+.pull-left[Sada imate svoj prvi projekat u R-u i prvu radnu skriptu! &#9787; &#9733; &#9786;]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+#  <span style="color:pink"> Osnovne funkcije - racunajmo u R-u! </span>
+
+Operatori su simboli koji upucuju program da izvrsi odredene matematicke ili logicke operatcije.
+
+.pull-left[aritmeticki operatori]
+
+.pull-right[logicki operatori]
+
+.pull-left[<img src="ArithmeticOp.png" align="middle" img width="150%">]
+
+.pull-right[<img src="LogicalOp.png" align="middle" img width="150%">]
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+.pull-left[Svaki kod koji se zapise u skriptu, moze da se izvrsi u konzoli. Opcija **Run** na vrhu skripte izvrsice liniju koda na kojoj se nalazi kursor. Da bi se pokrenulo vise linija koda potrebno ih je sve oznaciti.]
+
+.pull-right[<img src="RunScript.png" align="middle" img width="140%">]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+#  <span style="color:pink"> ** RStudio & Github ** </span>
+
+ Radom na data science projektima generise se veliki broj datoteka kojima treba upravljti i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene, i u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
+ 
+ **GitHub** predstavlja web servis koji omogucava skladistenje vasih repozitorijuma.
+
+Na nasoj GitHub stranici mozete skinuti danasnju prezentaciju, kao i prezentaciju sa prvog Meetup-a i sve naredne.
+<https://github.com/rladies/meetup-presentations_novi-sad>
+Kada se stranica otvori, kliknite na zeleno dugme **Clone or download** i odaberite opciju Download ZIP, ovaj fajl cete unzip-ovati na Vasem kompjuteru.
+
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+<img src="gitHubR.png" align="middle" img width="100%">
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+Prateci putanju C:\...\Downloads\meetup-presentations_novi-sad\Meetup Presentations\Second Meetup Presentation
+doci cete do fajla TemplatePrezentation2**.Rmd**, pokrenite ga. Fajl ce se otvoriti u RStudio-u.
+
+Uz pomoc dugmeta Knit pokrenite prezentaciju. Posto nemate odgovarajuce pakete instalirane, RStudio ce se sam ponuditi da ih instalira za Vas. Pored toga cete ipak morati sami da instalirate xaringan paket. U desnoj polovini prozora imate dugme Install, na koje kada kliknete otvara se mali prozor kao na slici, a zatim ukucajte ime paketa i kliknite opet na dugme Install. Nakon instalacije svih paketa, trebalo bi da pritiskom na dugme Knit Vas RStudio otvori nasu prezentaciju.
+
+<img src="RStudioR.png" align="middle" img width="140%">
+
+---
 
 class: inverse, middle
 
