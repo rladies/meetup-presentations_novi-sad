@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Introduction to R</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="R - Ladies Novi Sad" />
+    <link href="TemplatePrezentation2_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="TemplatePrezentation2_files/remark-css-0.0.1/rladies.css" rel="stylesheet" />
+    <link href="TemplatePrezentation2_files/remark-css-0.0.1/rladies-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Introduction to R
+## Meetup #2
+### R - Ladies Novi Sad
+### September 2019
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+&lt;!-- Tri crtice --- su pocetak slajda
+A iznad njih su redom naslov, podnaslov, 
+autor, datum, paket koji je koriscen i 
+koji css fajlovi.--&gt;
+
+&lt;!-- Zatim su postavljene
+osobine slajda, tj. definisemo njegovu 
+klasu koju posle mozemo menjati, tj. 
+definisati unutar odgovarajuceg css fajla.--&gt;
+
+
+&lt;!-- Nakon klase definisana je pozadina slajda.--&gt;
+
+
+#  &lt;span style="color:pink"&gt; ** Meet the Team ** &lt;/span&gt;
+
+&lt;!-- # koristimo da stavimo doznanja R -u da je u pitanju naslov.
+Ukoliko koristimo vise # kao sto je to ispit uradjeno, teks
+ce biti manji.--&gt;
+
+&lt;!-- Komanda &lt;span style="color:deeppink"&gt; tekst &lt;/span&gt; koristi se 
+za menjanje boje teksta, u ovom slucaju boja iz R spektra 
+je deeppink.--&gt;
+
+&lt;!-- **tekst** Dve zvezdice ispred i nakon teksta koristimo da 
+ potamnimo tekst, tj. za opciju bold. --&gt;
+
+
+.pull-left[
+- ### Tatjana Kecojevic
+- ### Maja Pokusevski     
+- ### Milena Kresoja 
+- ### Katica Ristic
+- ### Ranka Medenica Todorovic
+- ### Olivera Grljevic
+]
+
+&lt;!-- Komanda .pull-left[] i .pull-right[]
+koristimo da prostor slajda podeli u dve kolone.
+--&gt;
+&lt;!-- Komanda jedna crtica sluzi da bi se oznacila
+teza --&gt;
+
+
+.pull-right[
+&lt;img src="prvaFotka.jpg" align="left" img width="250%"&gt;
+]
+
+&lt;!-- Ukoliko zelite da ubacite sliku/animacije koja nije pozadina 
+to mozete uraditi komandom &lt;img src="ImeSlike.extenzija ili URLputanja.gif" align="left" img width="250%"&gt;
+pri cemu mozete odrediti mesto prikazivanja slike, kao i njenu visinu/velicinu
+--&gt;
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** We are a part of ** &lt;/span&gt;    
+# &lt;span style="color:#a1007a"&gt; ** R - Ladies Global ** &lt;/span&gt;
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+&lt;img src="R-LadiesGlobal_RBG_online_LogoWithText.png" align="left" img width="150%"&gt;
+]
+
+.pull-right[
+##&lt;span style="color:#a1007a"&gt; Worldwide organisation that promotes gender diversity in the R community via meetups and mentorship in friendly and safe environment. &lt;/span&gt;
+]          
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt;  We're a part of it!  &lt;/span&gt; 
+
+&lt;img src="NS_World.png" align="left" img width="90%"&gt;
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+&lt;img src="https://media.giphy.com/media/2aAcLrYtiX8YM/giphy.gif" align="cetre" img width="150%"&gt;
+
+&lt;span style="color:#a1007a"&gt; - R-Ladies Global, designed to improve the gender diversity of R users worldwide and in particular, to improve the participation and experience of women in the R community.&lt;/span&gt;
+]
+
+.pull-right[
+
+
+&lt;span style="color:#a1007a"&gt;- **R-Ladies Novi Sad** will host a number of talks and workshops about the use of R. It doesn't matter if you never used R or if you are an R expert, **R-Ladies Novi Sad** welcomes anyone with an interest in R.&lt;/span&gt; 
+
+&lt;span style="color:#a1007a"&gt;- The goal is to promote R, exchange knowledge and create an R community among women.&lt;/span&gt; 
+
+&lt;span style="color:#a1007a"&gt;- We are fully inclusive and respectful of LGBT identities - our priority is to provide a safe community space for anyone identifying as female who is interested in and/or working with R.&lt;/span&gt;
+]
+
+
+
+---
+
+class: inverse, middle, center
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  &lt;span style="color:pink"&gt; ** Osnove programiranja u R-u Part I ** &lt;/span&gt; 
+
+
+##  &lt;span style="color:white"&gt;  Ranka Medenica Todorovic  &lt;/span&gt;
+
+
+---
+
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  &lt;span style="color:pink"&gt; Sta je **R**? &lt;/span&gt;
+
+- **free open source programski jezik** - otvoreni (besplatan) softver otvorenog koda, sto znaci da je njegov izvorni kod dostupan svim korisnicima, koji ga mogu menjati, prepravljati i poboljsavati njegov sadrzaj - sto nije slucaj sa placenim sotverima
+
+- belezi dramatican rast proteklih godina
+
+- u 2019. godini zauzima 5. mesto na IEEE rang listi top programskih jezika [ IEEE - *Institute of Electrical and Electronics Engineers* - najvece svetsko udruzenje inzenjera elektrotehnike  ](https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2019)
+
+- **programski jezik za statisticku analizu i graficki prikaz podataka** (i jos mnogo toga) - popularan i u drugim naucnim poljima: *machine learning*, *data science* i drugim prediktivnim tehnikama i analizama podataka
+
+
+ - objedinjuje  funkcije komercijalnih statistickih programa (Statistica, Excel, SPSS) i programskih jezika (C, Pascal) 
+
+
+- koriste ga najvece IT i high tech kompanije kao sto su Misrosoft, Google, Facebook, Twitter, Amazon, LinkedIn, itd.
+
+
+---
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  &lt;span style="color:pink"&gt; Kako je nastao **R**? &lt;/span&gt;
+
+- nastao kao open-source implementacija (implementacija otvorenog koda) programskog jezika S 
+
+- pocetkom 90-ih dva profesora, **R**oss Ihaka i **R**obert Gentleman, sa Departmana za statistiku Univerzitetu u Oklandu (Novi Zeland) poceli su sa razvojem novog jezika za statisticku i analiticku obradu podataka (u to vreme nedostajalo je programa u kojima se na brz i jednostavan nacin moglo doci do vaznih informacija o podacima)
+
+- **1995. godine zvanicno je objavljen R programski jezik kao open source projekat sa GNU licencom za slobodni softver - [GNU General Public Licence](http://www.gnu.org/licenses/gpl-2.0.html) i postao je dostupan korisnicima razlicitih operativnih sistema**
+
+- nakon 1997. godine formira se **R Development Core Team** koji cini veca grupa statisticara, i u okviru koje se i danas razvija R
+
+
+---
+
+
+class: inverse, middle
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  &lt;span style="color:pink"&gt; Preuzimanje i instaliranje **R**-a &lt;/span&gt;
+
+Instaliranje R-a sa CRAN mreze: &lt;https://cran.r-project.org/&gt;
+(dostupan za Linux, Windows i MacOS)
+
+CRAN: Comprehensive R Archive Network
+  - distributivna mreza **R**-a i repozitorijuma paketa;
+    - paketi - brojni dodaci osnovnog R jezika dostupni preko CRAN mreze;
+    - kroz njih se prosiruju mogucnosti R-a i pruza dodatna funkcionalnost;
+    - razvijaju ih sami korisnici - trenutno je dostupno 14977 paketa u okviru CRAN repoziturijuma.
+
+R programski jezik moze se koristiti kroz R konzolu (pokretanjem samog programa) ili u nekom od integrisanih razvojnih okruzenja (*Integrated Development Environment* - IDE)
+
+RStudio je najpopularnije integrisano okruzenje za R (free, open-source) &lt;https://www.rstudio.com/&gt;
+
+Pokretanjem R-a automatski ce biti instalirani osnovni paketi sa standardnim funkcijama.
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+&lt;https://cran.r-project.org/&gt;
+&lt;img src="CRAN.png" align="middle" img width="250%"&gt;
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+&lt;https://www.rstudio.com/&gt;
+RStudio okruzenje sadrzi nekoliko prozora
+
+.pull-left[&lt;span style="color:pink"&gt; **Console** &lt;/span&gt; - konzola - prozor koji prikazuje rezultate Vasih komandi i vrednosti varijabli; prikazuje sta se desava nakon izvrsenog koda.]
+.pull-right[&lt;span style="color:pink"&gt; **Environment** &lt;/span&gt; - podaci na kojima trenutno radite - polje je na pocetku prazno jer jos uvek nisu ucitani podaci)]
+&lt;img src="RStudioWindow.png" align="middle" img width="100%"&gt;
+&lt;span style="color:pink"&gt; **Files** &lt;/span&gt; - prikazuje fajlove u okviru radnog direktorijuma / &lt;span style="color:pink"&gt; **Packages** &lt;/span&gt; - prikazuje sve eksterne R pakete koji su instaliran na vasem lokalnom sistemu; treba da budu cekirani da bi mogli da se koriste; klikom na Packages/Install Packages instaliraju se paketi
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+Pored navedenih, posebnu vaznost ima 4. (odnosno 1. &amp;#9786;) prozor za pisanje R skripti - **Source** (izvorni kod) koji ce se nalaziti u gornjem levom uglu. Pre nego sto otvorimo prozor za kreiranje i cuvanje skripte, potrebno je kreirati novi projekat i uspostaviti radni direktorijum.
+
+#  &lt;span style="color:pink"&gt; Postavljanje radnog direktorijuma &lt;/span&gt;
+
+Svaki projekat na kom radite u R-u ima drugacije radne skripte i fajlove. Sve sto je vezano za dati projekat neophodno je cuvati u jednom direktorijumu - folderu.
+
+.pull-left[&lt;img src="newProjectR.png" align="middle" img width="140%"&gt;]
+
+.pull-right[&lt;img src="myFirstRProjectR.png" align="middle" img width="140%"&gt;]
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+
+#  &lt;span style="color:pink"&gt; Kreiranje nove radne skripte &lt;/span&gt;
+
+Da bi sacuvali zeljeni rezultat koda, kao i kontinuitet u projektu, potrebno je kod sacuvati kao skriptu (fajl sa ekstenzijom .R)
+
+.pull-left[&lt;img src="newRScriptR.png" align="middle" img width="150%"&gt;]
+
+.pull-right[&lt;img src="myFirstScriptR.png" align="middle" img width="150%"&gt;]
+
+
+.pull-left[Sada imate svoj prvi projekat u R-u i prvu radnu skriptu! &amp;#9787; &amp;#9733; &amp;#9786]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+#  &lt;span style="color:pink"&gt; Osnovne funkcije - racunajmo u R-u! &lt;/span&gt;
+
+Operatori su simboli koji upucuju program da izvrsi odredene matematicke ili logicke operatcije.
+
+.pull-left[aritmeticki operatori]
+
+.pull-right[logicki operatori]
+
+.pull-left[&lt;img src="ArithmeticOp.png" align="middle" img width="150%"&gt;]
+
+.pull-right[&lt;img src="LogicalOp.png" align="middle" img width="150%"&gt;]
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+.pull-left[Svaki kod koji se zapise u skriptu, moze da se izvrsi u konzoli. Opcija **Run** na vrhu skripte izvrsice liniju koda na kojoj se nalazi kursor. Da bi se pokrenulo vise linija koda potrebno ih je sve oznaciti.]
+
+.pull-right[&lt;img src="RunScript.png" align="middle" img width="140%"&gt;]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+#  &lt;span style="color:pink"&gt; ** RStudio &amp; Github ** &lt;/span&gt;
+
+ Radom na projektima u R-u generise se veliki broj datoteka kojima treba upravljati i dati im neku strukturu. Cesto bi Vas rad mogao imati koristi od saradnje sa drugima, pa je potrebno uciniti ga dostupnim za citanje i izmene u toku samog razvoja projekta. Git je alat, free, open sorce sistem kontrole koji omogucava pracenje i deljenje koda, promene na vasim fajlovima i analize. Git konfigurise i organizuje setove fajlova koje generisete i koristite. Ti setovi nazivaju se repozitorijumi.
+ 
+ **GitHub** predstavlja web servis koji omogucava skladistenje Vasih repozitorijuma.
+
+Na nasoj GitHub stranici mozete skinuti danasnju prezentaciju, kao i prezentaciju sa prvog Meetup-a i sve naredne.
+&lt;https://github.com/rladies/meetup-presentations_novi-sad&gt;
+Kada se stranica otvori, kliknite na zeleno dugme **Clone or download** i odaberite opciju Download ZIP, ovaj fajl cete unzip-ovati na Vasem kompjuteru.
+
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+&lt;img src="gitHubR.png" align="middle" img width="100%"&gt;
+
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+Prateci putanju C:\...\Downloads\meetup-presentations_novi-sad\Meetup Presentations\Second Meetup Presentation
+doci cete do fajla TemplatePrezentation2**.Rmd**, pokrenite ga. Fajl ce se otvoriti u RStudio-u.
+
+Uz pomoc dugmeta **Knit** pokrenite prezentaciju. Posto nemate odgovarajuce pakete instalirane, RStudio ce se sam ponuditi da ih instalira za Vas. Pored toga cete ipak morati sami da instalirate xaringan paket. U desnoj polovini prozora imate dugme **Install**, na koje kada kliknete otvara se mali prozor kao na slici, a zatim ukucajte ime paketa i kliknite opet na dugme Install. Nakon instalacije svih paketa, trebalo bi da pritiskom na dugme Knit Vas RStudio otvori nasu prezentaciju.
+
+&lt;img src="RStudioR.png" align="middle" img width="140%"&gt;
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Osnove programiranja u R-u Part II** &lt;/span&gt; 
+
+
+##  &lt;span style="color:#0000cd"&gt;  Maja Pokusevski  &lt;/span&gt;
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Varijable ** &lt;/span&gt;  
+
+ &lt;span style="color:#0000cd"&gt; - **Obelezje** &lt;/span&gt; &lt;span style="color:#a1007a"&gt;, varijabla, promenljiva: nesto cije vrednosti variraju &lt;/span&gt;
+
+ &lt;span style="color:#0000cd"&gt; - **Podaci** &lt;/span&gt; &lt;span style="color:#a1007a"&gt; su vrednosti merenja promenljivih &lt;/span&gt;
+
+ &lt;span style="color:#0000cd"&gt; - **Starost** &lt;/span&gt; &lt;span style="color:#a1007a"&gt; pacijenta je &lt;/span&gt; &lt;span style="color:#0000cd"&gt;**35 godina** &lt;/span&gt;.
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Merne skale ** &lt;/span&gt;  
+
+
+&lt;span style="color:#0000cd"&gt; 1. ** Nominalna ** &lt;/span&gt; &lt;span style="color:#a1007a"&gt;- svojstvo identifikacije, opisna uloga, nema numericke vrednosti&lt;/span&gt; 
+ 
+&lt;span style="color:#0000cd"&gt; 2.  ** Ordinalna **&lt;/span&gt; &lt;span style="color:#a1007a"&gt; - ima dva svojstva: identitet i velicinu, vrednost u rednoj skali ima jedinstveno znacenje i ureden odnos prema svakoj drugoj vrednosti &lt;/span&gt;
+
+&lt;span style="color:#0000cd"&gt; 3. ** Intervalna ** &lt;/span&gt; &lt;span style="color:#a1007a"&gt; - ima svojstva: identitet, velicinu i jednake intervale &lt;/span&gt;
+
+&lt;span style="color:#0000cd"&gt; 4. ** Racio ** &lt;/span&gt; &lt;span style="color:#a1007a"&gt; - poseduje sva cetiri svojstva merenja: identitet, velicinu, jednake intervale i apsolutnu nulu &lt;/span&gt;     
+ 
+&lt;span style="color:#a1007a"&gt; Jos neki nivoi merenja: Log-intervalni, aditivni, apsolutni &lt;/span&gt;
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Tipovi varijabli - podele, podele, podele ** &lt;/span&gt;  
+
+
+&lt;span style="color:#0000cd"&gt; ** PREMA PRIRODI MERENJA ** &lt;/span&gt; 
+ 
+&lt;span style="color:#a1007a"&gt; - Kvantitativne     
+&lt;span style="color:#a1007a"&gt; - Kvalitativne
+&lt;/span&gt; 
+ 
+&lt;span style="color:#0000cd"&gt; ** PREMA NUMERICKOJ VREDNOSTI **&lt;/span&gt; 
+
+&lt;span style="color:#a1007a"&gt; - Numericke   
+&lt;span style="color:#a1007a"&gt; - Kategorijalne   
+&lt;/span&gt;
+
+&lt;span style="color:#0000cd"&gt; ** PREMA ULOZI U ISTRAZIVANJU (metodoloski) ** &lt;/span&gt; 
+
+&lt;span style="color:#a1007a"&gt; - Zavisne   
+&lt;span style="color:#a1007a"&gt; - Nezavisne    
+&lt;span style="color:#a1007a"&gt; - Kontrolne, moderatorske, medijatorske    
+&lt;span style="color:#a1007a"&gt; - Kriterijumske i prediktorske    
+&lt;/span&gt;
+
+
+&lt;span style="color:#0000cd"&gt; ** PREMA SKALI MERENJA ** &lt;/span&gt; 
+
+&lt;span style="color:#a1007a"&gt; - Nominalne     
+&lt;span style="color:#a1007a"&gt; - Orinalne     
+&lt;span style="color:#a1007a"&gt; - Intervalne     
+&lt;span style="color:#a1007a"&gt; - Racio    
+&lt;/span&gt;     
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Nominalni nivo - primeri ** &lt;/span&gt;   
+
+&lt;span style="color:#0000cd"&gt; - podaci nemaju jedinicu mere, redosled mogucih kategorija je potpuno proizvoljan
+
+&lt;span style="color:#a1007a"&gt; - boja ociju     
+&lt;span style="color:#a1007a"&gt; - postanski broj     
+&lt;span style="color:#a1007a"&gt; - vrsta reci (imenica, zamenica, pridev, glagol, predlog, . . . )    
+
+&lt;span style="color:#a1007a"&gt; ...
+&lt;/span&gt;
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Ordinalni nivo - primeri ** &lt;/span&gt;   
+
+&lt;span style="color:#0000cd"&gt; - podaci nemaju jedinicu mere, redosled mogucih kategorija nije proizvoljan, poznato je koja kategorija prehodi drugoj, oznacava redosled
+
+
+&lt;span style="color:#a1007a"&gt; - radno iskustvo (0 do 5 godina, 6 do 10 godina, 11 do 15 godina, preko 15 godina)    
+&lt;span style="color:#a1007a"&gt; - pozicija na ATP listi     
+&lt;span style="color:#a1007a"&gt; - izbor za mis    
+
+&lt;span style="color:#a1007a"&gt; ...
+&lt;/span&gt;
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Intervalni nivo - primeri ** &lt;/span&gt;   
+
+&lt;span style="color:#0000cd"&gt; - podaci imaju jedinicu mere,  pokazuje i redosled i apsolutne razlike, poznat interval izmedu jedinica (jednak) , nemaju apsolutnu nulu tj nula je proizvoljno odredena
+
+
+&lt;span style="color:#a1007a"&gt; - standardizovani IQ testovi    
+&lt;span style="color:#a1007a"&gt; - temperatura u Celzijusima ili Farenhajtima    
+&lt;/span&gt;
+
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Racio nivo - primeri ** &lt;/span&gt;   
+
+&lt;span style="color:#0000cd"&gt; - skala odnosa, numericki podaci
+
+
+&lt;span style="color:#a1007a"&gt; - visina u cm, m   
+&lt;span style="color:#a1007a"&gt; - tezina u g, kg   
+&lt;span style="color:#a1007a"&gt; - duzina u m, km      
+&lt;/span&gt;
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
+&lt;img src="DataStructureTypes.png" align="left" img width="90%"&gt;
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
+&lt;img src="DataStructureTypes2.png" align="left" img width="90%"&gt;
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Vektori ** &lt;/span&gt;   
+
+&lt;span style="color:#a1007a"&gt; Osnovni tip podataka u R-u    
+&lt;span style="color:#a1007a"&gt; Niz od vise elemenata (komponenti) istog tipa    
+&lt;span style="color:#a1007a"&gt; Moze biti sastavljen od brojeva, vrednosti logickih operatora (TRUE/FALSE) ili karaktera (tekstualnih promenljivih)
+&lt;/span&gt;
+
+&lt;span style="color:#0000cd"&gt; ** Kreiranje vektora  `c()` **
+
+```r
+numeric_vector &lt;- c(12, 45.3, -23, 0, 0.001)
+character_vector &lt;- c("Beograd", "Pariz", "Rim", 45)
+log_vector &lt;- c(TRUE, TRUE, FALSE, TRUE, FALSE)
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Tipovi vektora ** &lt;/span&gt;   
+
+&lt;span style="color:#a1007a"&gt; 1. Numericki: `c(1, 2, 0.7) `      
+&lt;span style="color:#a1007a"&gt; 2. Karakteri: `c("hello"); c("Dobrodosli")`      
+&lt;span style="color:#a1007a"&gt; 3. Logicki: `TRUE` ili `FALSE` vrednosti    
+&lt;span style="color:#a1007a"&gt; 4. Faktori    
+&lt;/span&gt;
+
+
+
+```r
+
+diabetes &lt;- c("Tip1", "Tip2", "Tip1", "Tip1")
+diabetes &lt;- factor(diabetes)
+status &lt;- c("Los", "Dobar", "Odlican", "Los")
+status &lt;- factor(status, ordered = TRUE)
+status &lt;- factor(status, order = TRUE, levels = c("Los", "Dobar", "Odlican"))
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Funkcije ** &lt;/span&gt;   
+
+
+```r
+
+sum(numeric_vector)
+sum(character_vector)  # Da li mozemo da sumiramo karaktere?
+sum(log_vector)        # Funkcionise zato sto R posmatra FALSE kao 0, TRUE kao 1
+length(numeric_vector)
+sort(numeric_vector)
+
+
+```
+&lt;span style="color:#a1007a"&gt; Sabiranje 2 vektora `c(1,2,3) + c(4,5,6) `
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Selekcija i ekstrakcija elemenata vektora ** &lt;/span&gt;   
+
+
+```r
+
+numeric_vector[2]                   # Izbor drugog elementa vektora
+numeric_vector[-2]                  # Izbor svih osim drugog elementa vektora
+numeric_vector[3:5]                 # Izbor od treceg do petog  elementa vektor
+numeric_vector[numeric_vector &gt; 6]  # Izbor svih elementa vektora vecih od 6
+
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Matrice ** &lt;/span&gt;   
+
+&lt;span style="color:#a1007a"&gt; Vektori imaju jednu dimenziju, dok matrice imaju 2 dimenzije (redove i kolone)
+&lt;/span&gt;
+
+&lt;span style="color:#0000cd"&gt; ** Kreiranje matrice `matrix()` **
+
+```r
+matrix(1:9, byrow=TRUE, nrow=3)
+
+```
+&lt;span style="color:#a1007a"&gt; Sve operacije i funkcije koje vaze za vektore, vaze i za matrice
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Faktori  ** &lt;/span&gt;   
+
+
+&lt;span style="color:#0000cd"&gt; ** Kreiranje faktora `factor()` **
+
+
+
+# &lt;span style="color:#a1007a"&gt; ** Liste ** &lt;/span&gt;   
+
+
+&lt;span style="color:#0000cd"&gt; ** Kreireanje liste `list()` **
+
+
+&lt;span style="color:#a1007a"&gt; Argumenti u funkciji `list()` su komponente koje mogu biti matrice, vektori, data frame, druge liste. Nije obavezno da komponente liste budu povezane
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Data Frame ** &lt;/span&gt;   
+
+
+&lt;span style="color:#a1007a"&gt; Tabele su verovatno najbitniji i najcesci tip podataka u R-u. Format `data.frame` je najslicniji tabelama koje srecemo u programima kao sto su **Excel**, **Statistica**, **SPSS** ili **SAS**.
+
+## &lt;span style="color:#a1007a"&gt; ** Kreiranje ** &lt;/span&gt;
+
+&lt;span style="color:#a1007a"&gt; Tabele u R-u mozemo kreirati na vise nacina: spajanjem vise vektora, ekstrakcijom podataka iz postojece tabele, ucitavanjem tabele iz drugog formata, pretvaranjem nekog drugog formata u data.frame, itd.
+
+&lt;span style="color:#0000cd"&gt; ** Kreiranje data frame `data.frame()` **
+
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Nasi Podaci ** &lt;/span&gt;   
+
+
+```r
+polBaseValues &lt;- c(1, 1, 1, 2, 2, 1, 1, 2, 2, 2, 2, 1, 1, 1)
+polFactor &lt;- factor(polBaseValues,
+                    levels=c(1, 2),
+                    labels=c("M", "Z"))
+                    
+
+godine &lt;- c(22, 69, 64, 44, 31, 38, 60, 50, 65, 21, 48, 26, 47, 36)
+
+
+obrazovanje3 &lt;- factor(c(1, 3, 3, 2, 3, 2, 1, 1, 1, 2, 1, 1, 3, 3),
+                       levels=c(1, 2, 3),
+                       labels=c("Osnovna", "Srednja", "Visoka i visa"))
+        
+rbr &lt;- 1:14
+
+ls()
+rm()
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Nasi Podaci ** &lt;/span&gt;   
+
+
+```r
+nasiPodaci &lt;- data.frame(rbr, polFactor, godine, obrazovanje3)
+
+summary(nasiPodaci) # sumiranje posataka
+
+ncol(nasiPodaci)    # broj kolona
+nrow(nasiPodaci)    # broj vrsta
+head(nasiPodaci)    # prikazuje prvih 6 vrsta
+tail(nasiPodaci)    # prikazuje poslednjih 6 vrsta
+
+str(nasiPodaci)     # Struktura data frame
+
+
+```
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Nasi Podaci ** &lt;/span&gt;   
+
+
+```r
+nasiPodaci[1,1]               # element u prvoj koloni i prvom redu
+nasiPodaci[,1]                # prva kolona
+nasiPodaci[,2:4]              # kolone 2 - 4
+nasiPodaci[,"obrazovanje3"]   # samo kolona obrazovanje3
+nasiPodaci[,-3]               # sve osim kolone broj 3
+nasiPodaci[,c(-1, -3)]        # sve osim kolona 1 i 3
+nasiPodaci[1:10,]             # slucajevi 1 - 10
+nasiPodaci$godine
+
+names(nasiPodaci) &lt;- c("ID", "Pol", "Godine", "Obrazovanje")
+colnames(nasiPodaci)
+
+ageIdx &lt;- nasiPodaci$Godine &lt; 30
+ageIdx
+
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Recoding ** &lt;/span&gt;   
+
+
+```r
+godine_test &lt;- c(51, 46, 24, 60, 25, 58, 39, 35, 61, 58, 32, 59, 27, 
+                 46, 62, 52, 65, 45, 29, 55, 23, 28, 20, 58, 42, 50, 
+                 61, 32, 33, 44, 64, 61, 21, 32, 61, 49, 25, 24, 46, 
+                 33, 54, 30, 41, 26, 38, 37, 22, 44, 41, 24)
+
+godine3 &lt;- cut(godine_test, 
+               breaks = 3, 
+               labels = c("ispod 30", "31-50", "preko 50"))
+godine6 &lt;- cut(godine_test, 
+               breaks = c(0, 20, 30, 40, 50, 60, 100))
+dta.test &lt;- data.frame(godine_test, godine3, godine6)
+
+
+
+```
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Nedostajuci podaci - Missing values ** &lt;/span&gt;   
+
+
+```r
+
+y &lt;- c(1, 2, 3, NA, 5, 6, NA, 3, 2)
+is.na(y)
+
+mean(y)   # sta se dobije?
+mean(y, na.rm = TRUE) 
+
+```
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Raspoloziva literatura ** &lt;/span&gt;
+
+
+[&lt;span style="color:#0000cd"&gt; ** R Boot Camp **](http://rbootcamp.rbind.io/day1/whatisr/)  
+
+[&lt;span style="color:#0000cd"&gt; ** Osnove R-a **](https://rzanat.rs/)  
+
+[&lt;span style="color:#0000cd"&gt; ** Base R Cheat Sheet **](https://rstudio.com/wp-content/uploads/2016/05/base-r.pdf) 
+
+[&lt;span style="color:#0000cd"&gt; ** R for Data Science **](https://r4ds.had.co.nz/introduction.html) 
+
+---
+
+
+class: inverse, middle, center
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+## &lt;span style="color:#a1007a"&gt; ** Thanks for listening :) ** &lt;/span&gt;
+
+## &lt;span style="color:#a1007a"&gt; ** Follow us: ** &lt;/span&gt;
+#### [&lt;span style="color:#a1007a"&gt; Twitter: R - Ladies Novi Sad &lt;/span&gt;](https://twitter.com/RLadiesNoviSad?s=03)      
+#### [&lt;span style="color:#a1007a"&gt; Meetup: R - Ladies Novi Sad &lt;/span&gt;](https://www.meetup.com/rladies-novi-sad/)
+#### [&lt;span style="color:#a1007a"&gt; GitHub rladies &lt;/span&gt;](https://github.com/rladies/meetup-presentations_novi-sad)
+## &lt;span style="color:#a1007a"&gt; ** Contact us: ** &lt;/span&gt;
+## &lt;span style="color:#a1007a"&gt; **novisad@rladies.org** &lt;/span&gt;     
+### &lt;span style="color:#a1007a"&gt; Let us build projects together!&lt;/span&gt;
+
+
+
+
+&lt;!-- I to bi bilo to! --&gt;
+&lt;!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u. --&gt;
+&lt;!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU. --&gt;
+&lt;!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI SAD!--&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
