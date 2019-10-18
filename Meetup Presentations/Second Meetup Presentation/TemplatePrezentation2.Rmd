@@ -807,7 +807,7 @@ background-size: 96% 97%
 ```r
 nasiPodaci <- data.frame(rbr, polFactor, godine, obrazovanje3)
 
-summary(nasiPodaci) # sumiranje posataka
+summary(nasiPodaci) # sumiranje podataka
 
 ncol(nasiPodaci)    # broj kolona
 nrow(nasiPodaci)    # broj vrsta
@@ -843,7 +843,7 @@ nasiPodaci$godine
 names(nasiPodaci) <- c("ID", "Pol", "Godine", "Obrazovanje")
 colnames(nasiPodaci)
 
-ageIdx <- nasiPodaci$Godine < 30
+ageIdx <- nasiPodaci$Godine < 30 # indikator mladjih od 30 godina
 ageIdx
 
 
@@ -900,6 +900,76 @@ mean(y)   # sta se dobije?
 mean(y, na.rm = TRUE) 
 
 ```
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Ucitavanje podataka - Import data ** </span>   
+<span style="color:#a1007a"> Import TEXT DATA 
+
+mydataframe <- read.table(file,header=logical_value, sep="delimiter",row.names="name")
+</span>
+
+
+```r
+
+dfText <- read.table("titanic3.txt", header=TRUE, sep="\t")
+
+```
+<span style="color:#a1007a"> Import EXCEL DATA </span>
+
+
+```r
+
+install.packages("readxl")
+library(readxl)
+
+dfExcel <- read_excel("titanic3.xls")
+
+```
+<span style="color:#a1007a"> Import SPSS DATA </span>
+
+```r
+
+> library(foreign) # load the foreign package
+> help(read.spss) # documentation
+> mydata = read.spss("myfile", to.data.frame=TRUE)
+
+```
+<span style="color:#a1007a"> Import URL DATA </span>
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** VEZBA ** </span>   
+
+
+<span style="color:#a1007a"> Kreirajte  vektore: 
+
+Ime planete: Merkur, Venera, Zemlja, Mars, Jupiter, Saturn, Uran, Neptun
+
+Tip planete : Terra (Terrestrial - kamen) : Merkur, Venera, Zemlja, Mars,  i Gas (Gas Giant - gasovita ) : Jupiter, Saturn, Uran, Neptun
+
+Precnik : Merkur( 0.382), Venera (0.949), Zemlja ( 1), Mars ( 0.532), Jupiter ( 11.209), Saturn ( 9.449), Uran ( 4.007), Neptun ( 3.883)
+
+Rotacija : Merkur( 58.64), Venera ( -243.02), Zemlja ( 1), Mars ( 1.03), Jupiter ( 0.41), Saturn ( 0.43), Uran ( -0.72), Neptun ( 0.67) 
+
+Prsten - da li planeta ima prsten  ili ne: IMA PRSTEN : Jupiter, Saturn, Uran, Neptun,  ostale nemaju prsten 
+</span>
+
+<span style="color:#a1007a"> Kreirajte DATA FRAME i nazovite ga Suncev sistem, koji ce da se sastoji od svih napravljenih vektora </span>
+
 
 
 ---
