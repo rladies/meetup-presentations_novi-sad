@@ -13,9 +13,9 @@
 class: center, middle, inverse, title-slide
 
 # Introduction to R
-## Meetup #2
+## Meetup #2 &amp; Meetup #3
 ### R - Ladies Novi Sad
-### September 2019
+### September/October 2019
 
 ---
 
@@ -919,11 +919,13 @@ background-position: center
 background-size: 96% 97%
 
 # &lt;span style="color:#a1007a"&gt; ** Ucitavanje podataka - Import data ** &lt;/span&gt;   
-&lt;span style="color:#a1007a"&gt; Import TEXT DATA 
+&lt;span style="color:#a1007a"&gt; Import TEXT DATA &lt;/span&gt;
 
-mydataframe &lt;- read.table(file,header=logical_value, sep="delimiter",row.names="name")
-&lt;/span&gt;
+```r 
+mydataframe &lt;- read.table(file,header=logical_value,
+                               sep="delimiter",row.names="name")
 
+```
 
 ```r
 
@@ -945,9 +947,9 @@ dfExcel &lt;- read_excel("titanic3.xls")
 
 ```r
 
-&gt; library(foreign) # load the foreign package
-&gt; help(read.spss) # documentation
-&gt; mydata = read.spss("myfile", to.data.frame=TRUE)
+library(foreign)      # load the foreign package
+help(read.spss)       # documentation
+mydata &lt;- read.spss("myfile", to.data.frame=TRUE)
 
 ```
 &lt;span style="color:#a1007a"&gt; Import URL DATA &lt;/span&gt;
@@ -964,17 +966,17 @@ background-size: 96% 97%
 # &lt;span style="color:#a1007a"&gt; ** VEZBA ** &lt;/span&gt;   
 
 
-&lt;span style="color:#a1007a"&gt; Kreirajte  vektore: 
+&lt;span style="color:#a1007a"&gt; Kreirajte  vektore:
 
-Ime planete: Merkur, Venera, Zemlja, Mars, Jupiter, Saturn, Uran, Neptun
+&lt;span style="color:#a1007a"&gt; Ime planete: Merkur, Venera, Zemlja, Mars, Jupiter, Saturn, Uran, Neptun
 
-Tip planete : Terra (Terrestrial - kamen) : Merkur, Venera, Zemlja, Mars,  i Gas (Gas Giant - gasovita ) : Jupiter, Saturn, Uran, Neptun
+&lt;span style="color:#a1007a"&gt; Tip planete : Terra (Terrestrial - kamen) : Merkur, Venera, Zemlja, Mars,  i Gas (Gas Giant - gasovita ) : Jupiter, Saturn, Uran, Neptun
 
-Precnik : Merkur( 0.382), Venera (0.949), Zemlja ( 1), Mars ( 0.532), Jupiter ( 11.209), Saturn ( 9.449), Uran ( 4.007), Neptun ( 3.883)
+&lt;span style="color:#a1007a"&gt; Precnik : Merkur( 0.382), Venera (0.949), Zemlja ( 1), Mars ( 0.532), Jupiter ( 11.209), Saturn ( 9.449), Uran ( 4.007), Neptun ( 3.883)
 
-Rotacija : Merkur( 58.64), Venera ( -243.02), Zemlja ( 1), Mars ( 1.03), Jupiter ( 0.41), Saturn ( 0.43), Uran ( -0.72), Neptun ( 0.67) 
+&lt;span style="color:#a1007a"&gt; Rotacija : Merkur( 58.64), Venera ( -243.02), Zemlja ( 1), Mars ( 1.03), Jupiter ( 0.41), Saturn ( 0.43), Uran ( -0.72), Neptun ( 0.67) 
 
-Prsten - da li planeta ima prsten  ili ne: IMA PRSTEN : Jupiter, Saturn, Uran, Neptun,  ostale nemaju prsten 
+&lt;span style="color:#a1007a"&gt; Prsten - da li planeta ima prsten  ili ne: IMA PRSTEN : Jupiter, Saturn, Uran, Neptun,  ostale nemaju prsten 
 &lt;/span&gt;
 
 &lt;span style="color:#a1007a"&gt; Kreirajte DATA FRAME i nazovite ga Suncev sistem, koji ce da se sastoji od svih napravljenih vektora &lt;/span&gt;
@@ -1073,6 +1075,18 @@ background-size: 96% 97%
 &lt;img src="BasicRSwirl.png" align="center" img width="90%"&gt;
 
 
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# &lt;span style="color:#a1007a"&gt; ** Osnove R programiranja u Swirl-u ** &lt;/span&gt;
+
+&lt;img src="RProgrammingSwirl.png" align="center" img width="90%"&gt;
 
 
 ---
