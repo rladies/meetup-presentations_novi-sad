@@ -1117,7 +1117,7 @@ background-size: 96% 97%
 
  <span style="color:#a1007a"> Robert Kosara - Senior Research Scientist at Tableau Software
  
- [ <span style="color:#a1007a"> eagereyesTV Episode 1: The DataSaurus, Anscombe’s Quartet, and why summary statistics need to be taken with a grain of salt](https://www.youtube.com/watch?v=RbHCeANCbW0&feature=youtu.be)
+ [ <span style="color:#a1007a"> eagereyesTV Episode 1: The DataSaurus, AnscombeÂ’s Quartet, and why summary statistics need to be taken with a grain of salt](https://eagereyes.org/eagereyestv/eagereyestv-episode-1-the-datasaurus-anscombes-quartet-and-why-summary-statistics-need-to-be-taken-with-a-grain-of-salt)
 
 <img src="RobertKosara.png" align="center" img width="80%">
 
