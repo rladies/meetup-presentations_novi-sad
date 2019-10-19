@@ -1035,22 +1035,9 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-# <span style="color:#a1007a"> ** Interakcija sa Swirl-om ** </span>
+# <span style="color:#a1007a"> ** Pocetak sa Swirl-om ** </span>
 
-<img src="BeginSwirl.png" align="center" img width="90%">
-
-
----
-class: inverse, middle
-
-
-background-image: url("Pozadina.png")
-background-position: center
-background-size: 96% 97%
-
-# <span style="color:#a1007a"> ** Interakcija sa Swirl-om ** </span>
-
-<img src="InteractionSwirl.png" align="center" img width="90%">
+<img src="BeginSwirl.png" align="center" img width="70%">
 
 
 ---
@@ -1062,6 +1049,19 @@ background-position: center
 background-size: 96% 97%
 
 # <span style="color:#a1007a"> ** Interakcija sa Swirl-om ** </span>
+
+<img src="InteractionSwirl.png" align="center" img width="70%">
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Kurseve koje Swirl nudi ** </span>
 
 <img src="BasicRSwirl.png" align="center" img width="90%">
 
@@ -1078,6 +1078,49 @@ background-size: 96% 97%
 # <span style="color:#a1007a"> ** Osnove R programiranja u Swirl-u ** </span>
 
 <img src="RProgrammingSwirl.png" align="center" img width="90%">
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Pogledajmo podatke u Swirl-u ** </span>
+
+<img src="LookAtDataSwirl.png" align="center" img width="90%">
+
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Osnove grafike u Swirl-u ** </span>
+
+<img src="BaseGraphicsSwirl.png" align="center" img width="90%">
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Stucture vs Graphics ** </span>
+
+ <span style="color:#a1007a"> Robert Kosara - Senior Research Scientist at Tableau Software
+ 
+ [ <span style="color:#a1007a"> eagereyesTV Episode 1: The DataSaurus, Anscombe’s Quartet, and why summary statistics need to be taken with a grain of salt](https://www.youtube.com/watch?v=RbHCeANCbW0&feature=youtu.be)
+
+<img src="RobertKosara.png" align="center" img width="80%">
+
 
 
 ---
