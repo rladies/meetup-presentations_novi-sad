@@ -1,0 +1,205 @@
+---
+title: " Visualization Part II"
+subtitle: "Basic concepts of data visualization and storytelling Build your first Shiny App "
+author: "R - Ladies Novi Sad"
+date: "NOVEMBER 2019"
+output:
+  xaringan::moon_reader:
+    css: ["default","rladies", "rladies-fonts"]
+    nature:
+          highlightLines: true
+          
+---
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+<!-- Tri crtice --- su pocetak slajda
+A iznad njih su redom naslov, podnaslov, 
+autor, datum, paket koji je koriscen i 
+koji css fajlovi.-->
+
+<!-- Zatim su postavljene
+osobine slajda, tj. definisemo njegovu 
+klasu koju posle mozemo menjati, tj. 
+definisati unutar odgovarajuceg css fajla.-->
+
+
+<!-- Nakon klase definisana je pozadina slajda.-->
+
+
+#  <span style="color:aliceblue"> ** Meet  R Ladies Novi Sad ** </span> 
+
+<!-- # koristimo da stavimo doznanja R -u da je u pitanju naslov.
+Ukoliko koristimo vise # kao sto je to ispit uradjeno, teks
+ce biti manji.-->
+
+<!-- Komanda <span style="color:deeppink"> tekst </span> koristi se 
+za menjanje boje teksta, u ovom slucaju boja iz R spektra 
+je deeppink.-->
+
+<!-- **tekst** Dve zvezdice ispred i nakon teksta koristimo da 
+ potamnimo tekst, tj. za opciju bold. -->
+
+
+.pull-left[
+- ## Olivera Grljević
+- ## Maja Pokuševski     
+- ## Milena Kresoja 
+- ## Ranka Medenica Todorović
+- ## Katica Ristić
+- ## Tatjana Kecojević
+]
+
+<!-- Komanda .pull-left[] i .pull-right[]
+koristimo da prostor slajda podeli u dve kolone.
+-->
+<!-- Komanda jedna crtica sluzi da bi se oznacila
+teza -->
+
+
+.pull-right[
+<img src="prvaFotka.jpg" align="left" img width="250%">
+]
+
+<!-- Ukoliko zelite da ubacite sliku/animacije koja nije pozadina 
+to mozete uraditi komandom <img src="ImeSlike.extenzija ili URLputanja.gif" align="left" img width="250%">
+pri cemu mozete odrediti mesto prikazivanja slike, kao i njenu visinu/velicinu
+-->
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Who are R - Ladies Global ** </span>          
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+<img src="R-LadiesGlobal_RBG_online_LogoWithText.png" align="left" img width="150%">
+]
+
+.pull-right[
+##<span style="color:#a1007a"> Worldwide organisation that promotes gender diversity in the R community via meetups and mentorship in friendly and safe environment. </span>
+]          
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+.pull-left[
+<img src="https://media.giphy.com/media/2aAcLrYtiX8YM/giphy.gif" align="cetre" img width="150%">
+
+<span style="color:#a1007a"> - R-Ladies Global, designed to improve the gender diversity of R users worldwide and in particular, to improve the participation and experience of women in the R community.</span>
+]
+
+.pull-right[
+
+
+<span style="color:#a1007a">- **R-Ladies Novi Sad** will host a number of talks and workshops about the use of R. It doesn't matter if you never used R or if you are an R expert, **R-Ladies Novi Sad** welcomes anyone with an interest in R.</span> 
+
+<span style="color:#a1007a">- The goal is to promote R, exchange knowledge and create an R community among women.</span> 
+
+<span style="color:#a1007a">- We are fully inclusive and respectful of LGBT identities - our priority is to provide a safe community space for anyone identifying as female who is interested in and/or working with R.</span>
+]
+
+---
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a">  We're a part of it!  </span> 
+
+<img src="NS_World.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: bottom left
+background-size: 15% 10%
+
+
+<img src="Shiny.png" align="center" img width="20%">
+#  <span style="color:aliceblue"> ** Lean2Shiny ** </span> 
+
+
+---
+
+
+class: inverse, middle
+
+
+background-image: url("rladies-wide-logo.png")
+background-position: top right
+background-size: 15% 10%
+
+#  <span style="color:aliceblue"> ** Kako početi? ** </span> 
+
+
+### 1. Otvori R Studio 
+### 2. Instaliraj paket <span style="color:aquamarine">  **Shiny**  </span>  
+
+<span style="color:antiquewhite"> Sećaš se? Imaš dve opcije: </span> 
+
+.pull-left[  
+- install.packages("shiny")   
+] 
+.pull-right[
+
+- <span style="color:aquamarine"> Packages -> Install </span> u desnom donjem delu R Studio-a
+
+<img src="InstallShiny.png" align="left" img width="90%">
+ ]
+
+---
+
+
+class: inverse, middle, center
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+# <span style="color:#a1007a"> ** Thanks for listening :) ** </span>
+
+# <span style="color:#a1007a"> ** Follow R - Ladies Novi Sad on ** </span>
+### [<span style="color:#a1007a"> Twitter: R - Ladies Novi Sad </span>](https://twitter.com/RLadiesNoviSad?s=03)      
+### [<span style="color:#a1007a"> Meetup: R - Ladies Novi Sad </span>](https://www.meetup.com/rladies-novi-sad/)
+### [<span style="color:#a1007a"> GitHub rladies </span>](https://github.com/rladies/meetup-presentations_novi-sad)
+# <span style="color:#a1007a"> ** Contact R - Ladies Novi Sad ** </span>
+## <span style="color:#a1007a"> **novisad@rladies.org** </span>     
+## <span style="color:#a1007a"> Let us build projects together!</span>
+
+
+
+
+<!-- I to bi bilo to! -->
+<!-- Cestitamo! Savladali smo svi zajedno kako praviti prezentaciju u R-u. -->
+<!-- Ovaj Tamplate slobodno mozete koristiri za VASU PRVU R PREZENTACIJU. -->
+<!-- PUNO SRECE U UCENJU R-a ZELE TI R-LADIES NOVI SAD!-->
