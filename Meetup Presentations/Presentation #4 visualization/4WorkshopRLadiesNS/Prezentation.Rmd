@@ -145,6 +145,368 @@ background-size: 96% 97%
 
 
 
+#  <span style="color:#a1007a"> ** Vizualizacija ** </span> 
+<img src="Florence.png" align="center" img width="45%">
+
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
+#  <span style="color:#a1007a"> ** Nekada... ** </span> 
+
+[<span style="color:mediumblue"> Storytelling: Minard vs. Nightingale ](https://eagereyes.org/journalism/storytelling-minard-vs-nightingale)
+
+.pull-left[ 
+[<span style="color:mediumblue"> Florence Nightingale](https://sr.wikipedia.org/wiki/Флоренс_Најтингејл)
+[<span style="color:mediumblue"> "Diagram of the causes of mortality in the army in the East"](https://public.tableau.com/en-us/gallery/recreating-florence-nightingales-coxcomb-chart)
+
+<img src="Florence.png" align="left" img width="90%">
+]
+
+.pull-right[ 
+
+[<span style="color:mediumblue"> Charles Minard’s visualization of Napoleon’s Russian campaign in 1812/13](https://en.wikipedia.org/wiki/Charles_Joseph_Minard) 
+
+<img src="Charles_Joseph_Minard.png" align="left" img width="120%">
+
+
+]
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
+#  <span style="color:#a1007a"> ** Sad :) ** </span> 
+
+.pull-left[ 
+[<span style="color:mediumblue"> Tableau Viz of the day ](https://public.tableau.com/en-us/gallery/?tab=viz-of-the-day&type=viz-of-the-day)
+
+<img src="TableauViz.png" align="left" img width="120%">
+]
+
+.pull-right[ 
+
+[<span style="color:mediumblue"> Edward Tufte ](https://www.edwardtufte.com/tufte/)
+
+<img src="TufteE.png" align="left" img width="120%">
+
+]
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
+#  <span style="color:#a1007a"> ** Šta je vizualizacija? ** </span> 
+
+<img src="WhatIsVisualization.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+<img src="TableauDef.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+#  <span style="color:#a1007a"> ** Šta je cilj vizualizacije? ** </span> 
+
+<span style="color:#a1007a">  - Pokaže podatke
+
+<span style="color:#a1007a">  - Ne laže u vezi podataka
+
+<span style="color:#a1007a">  - Ilustuje priču: pokaže uzročnost, paterne, otkrića
+
+<span style="color:#a1007a">  - Smanji "nered"
+
+<span style="color:#a1007a">  - Ubedljivo isporuči informaciju
+
+<span style="color:#a1007a">  - Vuzualno mora komplementirati tekst i poseduje dovoljno informacija da stoji sama
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 1 ** </span> 
+
+<img src="BadGraph1.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 1 ** </span> 
+
+<img src="GoodGraph11.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 2 ** </span> 
+
+<img src="BadGraph2.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 2 ** </span> 
+
+<img src="GoodGraph2.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 3 ** </span> 
+
+<img src="BadGraph3.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 3 ** </span> 
+
+<img src="GoodGraph3.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 4 ** </span> 
+
+<img src="BadGraph4.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 4 ** </span> 
+
+<img src="GoodGraph4.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 5 ** </span> 
+
+<img src="BadGraph5.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 5 ** </span> 
+
+<img src="GoodGraph1.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Loš graf 6 ** </span> 
+
+<img src="BadGraph6.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Dobar graf 6 ** </span> 
+
+<img src="GoodGraph6.png" align="left" img width="90%">
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Šta želimo da postignemo? ** </span> 
+
+<img src="Higlight.png" align="left" img width="90%">
+
+---
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Tufte-ovi principi ** </span> 
+
+<span style="color:#a1007a">  - Pokaže podatke
+
+<span style="color:#a1007a">  - Maksimiziraj ink podataka (bez dodatnih linija, osa, bez ponavljanja procenata)
+
+<span style="color:#a1007a">  - Obrisati suvišne informacije  
+
+<span style="color:#a1007a">  - Izbegavajte nepotrebne dodatke vizualizaciji 
+
+<span style="color:#a1007a">  - Povećati "gustinu" prikaza podataka
+
+<span style="color:#a1007a">  - Grafikoni bi trebalo da su horizontalni 
+
+<span style="color:#a1007a">  - Grafikoni bi trebalo da su horizontalni 
+
+---
+
+
+class: inverse, middle, left
+
+
+background-image: url("Pozadina.png")
+background-position: left
+background-size: 96% 97%
+
+##  <span style="color:#a1007a"> ** Primer na delu! ** </span> 
+
+[<span style="color:black"> Darkhorse Analytics ](https://www.darkhorseanalytics.com/blog/data-looks-better-naked)
+
+
+<img src="RemoveToImprove1.png" align="left" img width="90%">
+
+
+---
+
+
+class: inverse, middle, center
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+
+
 #  <span style="color:#a1007a"> ** Lean2Shiny ** </span> 
 <img src="Shiny.png" align="center" img width="20%">
 
