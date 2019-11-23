@@ -140,7 +140,6 @@ background-position: center
 background-size: 96% 97%
 
 # &lt;span style="color:#a1007a"&gt;  We're a part of it!  &lt;/span&gt; 
-
 &lt;img src="NS_World.png" align="left" img width="90%"&gt;
 
 ---
@@ -149,13 +148,14 @@ background-size: 96% 97%
 class: inverse, middle, center
 
 
-background-image: url("rladies-wide-logo.png")
-background-position: bottom left
-background-size: 15% 10%
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
 
 
+
+#  &lt;span style="color:#a1007a"&gt; ** Lean2Shiny ** &lt;/span&gt; 
 &lt;img src="Shiny.png" align="center" img width="20%"&gt;
-#  &lt;span style="color:aliceblue"&gt; ** Lean2Shiny ** &lt;/span&gt; 
 
 
 ---
@@ -164,27 +164,254 @@ background-size: 15% 10%
 class: inverse, middle
 
 
-background-image: url("rladies-wide-logo.png")
-background-position: top right
-background-size: 15% 10%
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
 
-#  &lt;span style="color:aliceblue"&gt; ** Kako početi? ** &lt;/span&gt; 
+#  &lt;span style="color:#a1007a"&gt; ** Kako početi? ** &lt;/span&gt; 
 
 
-### 1. Otvori R Studio 
-### 2. Instaliraj paket &lt;span style="color:aquamarine"&gt;  **Shiny**  &lt;/span&gt;  
+### &lt;span style="color:#a1007a"&gt; 1. Otvori R Studio &lt;/span&gt;
+### &lt;span style="color:#a1007a"&gt; 2. Instaliraj paket &lt;span style="color:mediumblue"&gt; **Shiny**  &lt;/span&gt;  
 
-&lt;span style="color:antiquewhite"&gt; Sećaš se? Imaš dve opcije: &lt;/span&gt; 
+&lt;span style="color:#a1007a"&gt; Sećaš se? Imaš dve opcije: &lt;/span&gt; 
 
 .pull-left[  
-- install.packages("shiny")   
+&lt;span style="color:#a1007a"&gt; - install.packages("shiny")   
 ] 
 .pull-right[
 
-- &lt;span style="color:aquamarine"&gt; Packages -&gt; Install &lt;/span&gt; u desnom donjem delu R Studio-a
+&lt;span style="color:mediumblue"&gt; -  **Packages -&gt; Install** &lt;/span&gt; 
+&lt;span style="color:#a1007a"&gt; u desnom donjem delu R Studio-a
 
 &lt;img src="InstallShiny.png" align="left" img width="90%"&gt;
  ]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Kako početi? ** &lt;/span&gt; 
+
+ [&lt;span style="color:mediumblue"&gt; Idite na naš GitHub](https://github.com/rladies/meetup-presentations_novi-sad) 
+
+
+&lt;img src="GitHub.png" align="left" img width="90%"&gt; 
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Kako pokrenuti Shuny projekat? ** &lt;/span&gt; 
+
+
+.pull-left[
+&lt;span style="color:#a1007a"&gt;   **File -&gt; New Project** &lt;/span&gt;
+
+&lt;img src="NewProject.png" align="center" img width="90%"&gt; 
+]
+.pull-right[
+&lt;span style="color:#a1007a"&gt;   **New Directory -&gt; **    
+&lt;span style="color:#a1007a"&gt;   **Shiny Web Application -&gt; **     
+&lt;span style="color:#a1007a"&gt;   **Create Shiny Web Application** &lt;/span&gt;
+
+&lt;img src="ShinyProject.png" align="center" img width="90%"&gt; 
+]
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Šta je potrebno da bi ShinyApp radila? ** &lt;/span&gt; 
+
+&lt;img src="ServerUI.png" align="left" img width="90%"&gt; 
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Template ** &lt;/span&gt; 
+
+```r
+library(shiny)
+
+# Definiši interfejs i promenljive
+ui &lt;- fluidPage()
+
+# Definiši funkciju servera
+server &lt;- function(input, output) {}
+
+# Pokreni aplikaciju 
+shinyApp(ui = ui, server = server)
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Pokreni i zaustavi ** &lt;/span&gt; 
+&lt;img src="RunStop.png" align="left" img width="90%"&gt; 
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Naša prava ShinyApp** &lt;/span&gt; 
+&lt;img src="UI.png" align="left" img width="90%"&gt; 
+
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Sintaksa padajućeg menija ** &lt;/span&gt; 
+
+&lt;img src="selectInput.png" align="left" img width="90%"&gt; 
+
+[&lt;span style="color:#a1007a"&gt; Pogledaj kompletan opis funkcije selectInput](https://shiny.rstudio.com/reference/shiny/latest/selectInput.html) 
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** Još neke UI funkcije za input objekte** &lt;/span&gt; 
+
+&lt;img src="UIfunctions.png" align="left" img width="90%"&gt; 
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** UI funkcije za output objekte** &lt;/span&gt; 
+
+&lt;img src="UIOtput.png" align="left" img width="90%"&gt; 
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** UI input - output deo ** &lt;/span&gt; 
+
+```r
+
+ui &lt;- fluidPage(
+  
+                # Dodamo naslov
+                headerPanel("Hello!"),
+                
+                # U baru sa strane, u input delu, dodaj 
+                sidebarPanel(
+                  # Padajuci meni
+                  selectInput("Vector", 
+                            "Select Mean of the distribution",
+                            c(0,1,2,3,4,5),
+                            selected = 0,
+                            multiple = FALSE),
+                  # Vrednost za n
+                  numericInput("n", "n", 50),
+                  # I dugme Go
+                  actionButton("go", "Go")
+                
+                ),
+                
+                # U output delu dodaj plot i statistiku
+                mainPanel(plotOutput("main_plot"), 
+                          verbatimTextOutput("stats"))
+)
+
+```
+
+---
+
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  &lt;span style="color:#a1007a"&gt; ** UI input - output deo ** &lt;/span&gt; 
+
+```r
+
+server &lt;- function(input, output) {
+  
+  # Kada se aktivira dugme Go sačuvaj mi vrednost promenljive n
+  randomVals &lt;- eventReactive(input$go, input$n)
+  
+  # Kreiraj n, tj. randomVals(), brojeva sa normalnom raspodelom (rnorm)
+  # čija je srednja vrednost, mean, sačuvana u vektoru input$Vector
+  v &lt;- function() { 
+       return(
+              rnorm(randomVals(), mean = as.numeric(input$Vector))
+  )}
+  
+  # Kreiran output plot definisan u ui, tako što crtamo histogram 
+  # uz pomoć vectora v koji smo upravo definisali
+  output$main_plot &lt;- renderPlot(
+                      hist(v(), 
+                           breaks = 15, # broj stubova
+                           xlab = "",   # bez imena na x - osi
+                           main = "Histogram of samples size n") # sa naslovom
+  )
+  
+  # Dodaj ispod histograma i opisnu statistiku definisanu u ui
+  output$stats &lt;- renderPrint({summary(v())})
+}
+
+```
 
 ---
 
