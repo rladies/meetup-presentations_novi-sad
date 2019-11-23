@@ -406,6 +406,30 @@ server <- function(input, output) {
 
 ---
 
+class: inverse, middle
+
+
+background-image: url("Pozadina.png")
+background-position: center
+background-size: 96% 97%
+
+#  <span style="color:#a1007a"> ** Korisni linkovi ** </span> 
+
+- [<span style="color:#a1007a"> Shiny Rstudio tutorial </span>](https://shiny.rstudio.com/tutorial/)
+
+- [<span style="color:#a1007a"> Traffic Accidents by Tatjana Kecojević </span>](https://tatjana.shinyapps.io/TrafficAccidents/)
+
+- [<span style="color:#a1007a"> Online retail data analysis by Renee Ahel </span>](http://rpubs.com/reneeahel/OnlineRetailAnalysisDemo)
+
+- [<span style="color:#a1007a"> Cancer Research UK Cambridge Institute </span>](https://www.cruk.cam.ac.uk/core-facilities/bioinformatics-core/shiny-apps)
+
+- [<span style="color:#a1007a"> GALLERY OF R WEB APPS </span>](https://www.showmeshiny.com)
+
+- [<span style="color:#a1007a"> package::xaringan </span>](https://bookdown.org/yihui/rmarkdown/xaringan.html)
+
+
+---
+
 
 class: inverse, middle, center
 
