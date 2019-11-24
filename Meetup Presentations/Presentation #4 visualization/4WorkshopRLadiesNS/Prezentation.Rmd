@@ -492,7 +492,7 @@ background-size: 96% 97%
 [<span style="color:black"> Darkhorse Analytics ](https://www.darkhorseanalytics.com/blog/data-looks-better-naked)
 
 
-<img src="RemoveToImprove1.png" align="left" img width="90%">
+<img src="https://images.squarespace-cdn.com/content/56713bf4dc5cb41142f28d1f/1450306653111-70K5IT30R69NWPDIE1ZJ/data-ink.gif?content-type=image%2Fgif" align="left" img width="90%">
 
 
 ---
@@ -735,7 +735,7 @@ background-image: url("Pozadina.png")
 background-position: center
 background-size: 96% 97%
 
-#  <span style="color:#a1007a"> ** UI input - output deo ** </span> 
+#  <span style="color:#a1007a"> ** Definisanje input - outputa za server ** </span> 
 
 ```r
 
