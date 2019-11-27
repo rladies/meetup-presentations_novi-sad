@@ -1,0 +1,92 @@
+---
+title: "Count regression"
+author: "Vera Miler Jerkovic"
+date: "August 4, 2019"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+---
+
+rm(list=ls())
+```{r setup, include=FALSE}
+library(ggplot2)
+library(leaflet)
+library(dplyr)
+```
+
+```{r,echo=TRUE}
+df<-read.csv('data.csv', na="")
+df<-df[,-7]
+colnames(df)<-c("ID", "Date and Time", "WGS_X", "WGS_Y", "Outcome", "description")
+```
+
+```{r,echo=TRUE}
+head(df)
+summary(df)
+str(df)
+unique(df$Outcome)
+unique(df$description)
+#create_report(baza)
+```
+
+
+#A finally data set
+```{r,echo=TRUE}
+df<-df[,c(3:5)]
+
+head(df, 10)
+```
+#Visualisation
+```{r, echo=TRUE}
+ accMap <- leaflet() %>%
+     addTiles() %>%
+     addMarkers(lng = df$WGS_X,
+                lat= df$WGS_Y,
+                clusterOptions = markerClusterOptions())
+ 
+ accMap
+ 
+ #saveWidget(accMap, file="accMap.html")
+```
+ 
+
+
+```{r, echo=TRUE}
+
+ # - Add Outcome Color
+col<-colorFactor(palette=c("Green", "DarkOrange","Red"),
+                 levels = c("Sa mat.stetom", "Sa povredjenim", "Sa poginulim"))
+
+md<-df %>%
+  filter(Outcome=="Sa mat.stetom")
+inj<-df %>%
+  filter(Outcome=="Sa povredjenim")
+dth<-df %>%
+  filter(Outcome=="Sa poginulim")
+
+
+accMap1 <- leaflet() %>%
+   addTiles(
+           attribution = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>', group = "url") %>%
+  addProviderTiles("Esri", group="Esri") %>%
+  addCircleMarkers(data=md,lng = md$WGS_X,
+                   lat= md$WGS_Y, group="Sa mat.stetom",
+                   color=~col(Outcome), radius=~sqrt(as.numeric(Outcome)) * 10)%>%
+  addCircleMarkers(data=inj, lng = inj$WGS_X,
+                   lat= inj$WGS_Y,group="Sa povredjenim",
+                   color=~col(Outcome),radius=~sqrt(as.numeric(Outcome)) * 10)%>%
+  addCircleMarkers(data=dth, lng = dth$WGS_X,
+                   lat= dth$WGS_Y, group="Sa poginulim",
+                   color=~col(Outcome),radius=~sqrt(as.numeric(Outcome)) * 10)%>%
+  addLayersControl(baseGroup=c("url", "Esri"),
+                  overlayGroups = c("Sa mat.stetom", "Sa povredjenim", "Sa poginulim"))
+
+accMap1
+
+#saveWidget(accMap1, "accMap1.html", selfcontained = FALSE)
+```
+
+
+
